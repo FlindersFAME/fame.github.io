@@ -4,6 +4,14 @@ layout: archive
 
 {{ content }}
 
+{% if page.tags.size > 0 %}
+<hr>
+{% for tag in page.tags %}
+<button class="btn btn--inverse" disabled>{{ tag }}</button>
+{% endfor %}
+{% endif %}
+
+
 <!--<ul class="taxonomy__index">-->
 <!--  {% assign postsInYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}-->
 <!--  {% for year in postsInYear %}-->

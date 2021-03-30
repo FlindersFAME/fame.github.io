@@ -1,7 +1,7 @@
 ---
 layout: posts
 category: blog
-tag: deepthought
+tags: deepthought snakemake
 title: Snakemake on deepthought
 excerpt: "Part 3: Using snakemake on deepthought"
 ---

@@ -100,19 +100,28 @@ analytics:
 
 # Site Author
 author:
-  name             : "FAME"#
+  name             : # "FAME"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "The Flinders Accelerator for Microbiome Exploration, FAME, is an interdisciplinary research group at Flinders University, providing access to microbiome and metagenomics resources to accelerate microbiome research."
-  location         : "Flinders University"
+  location         : # "Flinders University"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
-    - label: "Liz Dinsdale profile"
+    - label: "Liz Dinsdale website"
+      icon: "fas fa-fw fa-link"
+      url: "https://dinsdalelab.sdsu.edu/wordpress/"
+    - label: "Liz@Flinders"
       icon: "fas fa-fw fa-link"
       url: "https://www.flinders.edu.au/people/elizabeth.dinsdale"
-    - label: "Rob Edwards profile"
+    - label: "Liz@Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/dinsdalelab"
+    - label: "Rob Edwards website"
+      icon: "fas fa-fw fa-link"
+      url: "https://edwards.sdsu.edu/research/"
+    - label: "Rob@Flinders"
       icon: "fas fa-fw fa-link"
       url: "https://www.flinders.edu.au/people/robert.edwards"
     - label: "Rob@Twitter"
