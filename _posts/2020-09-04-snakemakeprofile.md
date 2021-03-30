@@ -3,7 +3,7 @@ layout: posts
 category: blog
 tag: deepthought
 title: Snakemake profiles
-excerpt: "Part 3: Using snakemake profiles"
+excerpt: "Part 4: Using snakemake profiles"
 ---
 
 # An Introduction To Using DeepThought For Bioinformatics
