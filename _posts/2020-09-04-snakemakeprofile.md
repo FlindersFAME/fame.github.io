@@ -2,7 +2,7 @@
 layout: posts
 category: blog
 tag: deepthought
-title: Snakemake on deepthought
+title: Snakemake profiles
 excerpt: "Part 3: Using snakemake profiles"
 ---
 
