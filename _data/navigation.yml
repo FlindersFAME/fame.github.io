@@ -1,0 +1,16 @@
+# main links
+main:
+  #- title: "Quick-Start Guide"
+  #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+   - title: "About"
+     url: /about/
+   - title: "Projects"
+     url: /projects/
+   - title: "Software"
+     url: /software/
+   - title: "Collaborate"
+     url: /collaborate/
+   - title: "Events"
+     url: /events/
+   - title: "Follow Us"
+     url: /follow-us/
