@@ -1,7 +1,6 @@
 ---
 layout: posts
 category: blog
-tag: deepthought
 title: Using Deepthought
 excerpt: Part 1: Introduction To Using DeepThought For Bioinformatics
 ---
