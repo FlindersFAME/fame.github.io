@@ -3,7 +3,7 @@ layout: posts
 category: blog
 tag: deepthought
 title: Conda on deepthought
-excerpt: Part 2: Using conda on deepthought
+excerpt: "Part 2: Using conda on deepthought"
 ---
 
 # An Introduction To Using DeepThought For Bioinformatics

@@ -3,7 +3,7 @@ layout: posts
 category: blog
 tag: deepthought
 title: Snakemake on deepthought
-excerpt: Part 3: Using snakemake on deepthought
+excerpt: "Part 3: Using snakemake on deepthought"
 ---
 
 # An Introduction To Using DeepThought For Bioinformatics
