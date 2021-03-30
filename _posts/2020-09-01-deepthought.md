@@ -352,7 +352,7 @@ Instead of calling the commands like we did here, you can put them (or anything 
 
 # Up Next
 
-In the [next section](deepthought_conda.md) we will start to install some bioinformatics tools and use them.
+In the [next section](condadeepthought) we will start to install some bioinformatics tools and use them.
 
 
 
