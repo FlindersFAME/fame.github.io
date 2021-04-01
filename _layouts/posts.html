@@ -2,12 +2,24 @@
 layout: archive
 ---
 
+
+{% unless page.category == 'people' %}
+    {% if page.author %}
+<small>{{ page.author }}, </small>
+    {% endif %}
+<small>{{ page.date | date_to_string}}</small>
+{% endunless %}
+
+
+
 {{ content }}
+
+
 
 {% if page.tags.size > 0 %}
 <hr>
 {% for tag in page.tags %}
-<button class="btn btn--inverse" disabled>{{ tag }}</button>
+<button onclick="location.href='/archive/#{{ tag | downcase }}'" class="btn btn--inverse">{{ tag }}</button>
 {% endfor %}
 {% endif %}
 

@@ -1,18 +1,14 @@
 ---
 layout: posts
 category: blog
-tags: deepthought snakemake
-title: Snakemake on deepthought
-excerpt: "Part 3: Using snakemake on deepthought"
+tags: DeepThought Snakemake
+title: "Part 3: Using snakemake on deepthought"
+author: Rob Edwards
 ---
 
-# An Introduction To Using DeepThought For Bioinformatics
 
-Rob Edwards, September 2020
 
-# Part 3: Using snakemake on deepthought
-
-[snakemake](https://snakemake.readthedocs.io/en/stable/) is a pipelining tool that allows you to recreate reusable pipelines to analyse data, and helps you to run things on the cluster.
+[snakemake](https://snakemake.readthedocs.io/en/stable/) is a pipelining tool that allows you to recreate reusable pipelines to analyse data<!--more-->, and helps you to run things on the cluster.
 
 In the [previous section](deepthought_conda.md) we installed `conda/mamba`, `prinseq++`, and `snakemake`. In this tutorial, we are going to write a small script to run `prinseq++` on a data set.
 

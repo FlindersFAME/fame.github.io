@@ -1,16 +1,14 @@
 ---
 layout: posts
 category: blog
-tag: deepthought
-title: Conda on deepthought
-excerpt: "Part 2: Using conda on deepthought"
+tag: DeepThought
+title: "Part 2: Using conda on deepthought"
+author: Rob Edwards
+excerpt: "We are going to use conda to install and update software"
 ---
 
-# An Introduction To Using DeepThought For Bioinformatics
+### _Series: An Introduction To Using DeepThought For Bioinformatics_
 
-Rob Edwards, September 2020
-
-# Part 2: Using conda on deepthought
 
 ## Activate Python
 

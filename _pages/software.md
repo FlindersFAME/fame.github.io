@@ -17,11 +17,13 @@ Browse our currently-maintained, open-source, and freely available Bioinformatic
 <h3>{{ tag[0] }}</h3>
 <details>
   <summary>
-    (<i>Show all {{ tag[0] }} tools</i>)
+    (<i>Click to show {{ tag[0] }} tools</i>)
   </summary>
   <ul>
     {% for post in tag[1] reversed %}
+      {% if post.category == 'software' %}
     <li><a href="{{ post.url }}">{{ post.title }}</a>{{ post.excerpt }}</li>
+      {% endif %}
     {% endfor %}
   </ul>
 </details>

@@ -1,16 +1,14 @@
 ---
 layout: posts
 category: blog
-title: Using Deepthought
-tag: deepthought
-excerpt: "Part 1: Introduction To Using DeepThought For Bioinformatics"
+title: "Part 1: DeepThought General Overview"
+author: Rob Edwards
+tag: DeepThought
+excerpt: Introduction To Using the Flinders HPC 'DeepThought' For Bioinformatics
 ---
 
-# An Introduction To Using DeepThought For Bioinformatics
+### _Series: An Introduction To Using DeepThought For Bioinformatics_
 
-Rob Edwards, September 2020
-
-# Part 1: DeepThought General Overview
 
 ## Getting access
 

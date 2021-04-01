@@ -3,6 +3,7 @@ layout: posts
 category: events
 title: Flinders weekly bioinformatics meeting
 excerpt: Weekly meeting at Flinders Uni to discuss bioinformatics-related problems/ideas
+expires: 9999-01-01
 ---
 
 The weekly bioinformatics meeting is intended to provide a platform for Flinders-based researchers to share and 

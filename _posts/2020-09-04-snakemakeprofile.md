@@ -1,16 +1,14 @@
 ---
 layout: posts
 category: blog
-tag: deepthought
-title: Snakemake profiles
-excerpt: "Part 4: Using snakemake profiles"
+tags: DeepThought Snakemake
+title: "Part 4: Snakemake profiles for DeepThought"
+author: Rob Edwards
+excerpt: "Setting up a snakemake profile for deepthought will make your life much easier"
 ---
 
-# An Introduction To Using DeepThought For Bioinformatics
+### _Series: An Introduction To Using DeepThought For Bioinformatics_
 
-Rob Edwards, September 2020
-
-# Part 4: Snakemake profiles
 
 Please note: much of this information was distilled from [this great blog post](https://www.sichong.site/2020/02/25/snakemake-and-slurm-how-to-manage-workflow-with-resource-constraint-on-hpc/) about snakemake profiles
 

@@ -6,6 +6,9 @@ author_profile: true
 ---
 
 {% for post in site.categories.blog %}
-<a href="{{ post.url }}">{{ post.title }}</a><br>{{ post.excerpt | strip_html }} 
+<a href="{{ post.url }}">{{ post.title }}</a>
+<small> <i>({{ post.date | date_to_string }})</i> </small>
+<br>
+{{ post.excerpt | strip_html }} 
 {% endfor %}
 

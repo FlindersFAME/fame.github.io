@@ -1,12 +1,13 @@
 ---
 layout: posts
 category: blog
-tag: deepthought
-title: Jupyter with PyCharm
-excerpt: "Running Jupyter locally using PyCharm"
+tags : Jupyter PyCharm
+title: Using PyCharm and Jupyter Notebooks
+author: Rob Edwards
+excerpt: "PyCharm is a terrific Python IDE, and you should use it for code development"
 ---
 
-# Using PyCharm and Jupyter Notebooks
+### _Series: An Introduction To Using DeepThought For Bioinformatics_
 
 PyCharm is a terrific Python IDE, and you should use it for code development, but often you just need to manipulate a few files or run some simple code, and that's where Jupyter excels. Here is how to do them both at the same time!
 

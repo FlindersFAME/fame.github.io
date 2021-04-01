@@ -1,0 +1,127 @@
+Rob Edwards:
+  name        : "Rob Edwards"
+  bio         : "Matthew Flinders Fellow in Bioinformatics"
+  avatar      : "/assets/images/rob.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:robert.edwards@flinders.edu.au"
+    - label: "Rob Edwards website"
+      icon: "fas fa-fw fa-link"
+      url: "https://edwards.sdsu.edu/research/"
+    - label: "Rob@Flinders"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.flinders.edu.au/people/robert.edwards"
+    - label: "Rob@Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/linsalrob"
+    - label: "Rob@GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/linsalrob"
+
+
+Liz Dinsdale:
+  name        : "Liz Dinsdale"
+  bio         : "Matthew Flinders Fellow in Marine Biology"
+  avatar      : "/assets/images/liz.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:elizabeth.dinsdale@flinders.edu.au"
+    - label: "Liz Dinsdale website"
+      icon: "fas fa-fw fa-link"
+      url: "https://dinsdalelab.sdsu.edu/wordpress/"
+    - label: "Liz@Flinders"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.flinders.edu.au/people/elizabeth.dinsdale"
+    - label: "Liz@Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/dinsdalelab"
+
+
+Michael Roach:
+  name        : "Michael Roach"
+  bio         : "Research Associate in Bioinformatics"
+  avatar      : "/assets/images/roach.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:michael.roach@flinders.edu.au"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://bioinf.cc"
+    - label: "Mike@Google Scholar"
+      icon: "fas fa-fw fa-link"
+      url: "https://scholar.google.com/citations?user=bQoA7gUAAAAJ"
+    - label: "Mike@Flinders"
+      icon: "fas fa-fw fa-link"
+      url: "https://researchnow.flinders.edu.au/en/persons/michael-roach"
+    - label: "Mike@Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/BeardyMcFace"
+    - label: "Mike@GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/beardymcjohnface"
+    - label: "Mike@Bitbucket"
+      icon: "fab fa-fw fa-bitbucket"
+      url: "https://bitbucket.org/mroachawri/"
+
+
+Michael Doane:
+  name        : "Michael Doane"
+  bio         : "Research Associate & FAME Liaison"
+  avatar      : "/assets/images/profile.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:michael.doane@flinders.edu.au"
+    - label: "Mike@Google Scholar"
+      icon: "fas fa-fw fa-link"
+      url: "https://scholar.google.com/citations?user=ZsChJPMAAAAJ"
+    - label: "Mike@Flinders"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.flinders.edu.au/people/michael.doane"
+
+
+Sarah Giles:
+  name        : "Sarah Giles"
+  bio         : "Research Associate"
+  avatar      : "/assets/images/profile.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:sarah.giles@flinders.edu.au"
+    - label: "Sarah@Flinders"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.flinders.edu.au/people/sarah.giles"
+
+
+Jody McKerral:
+  name        : "Jody McKerral"
+  bio         : "Research Associate"
+  avatar      : "/assets/images/profile.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:jody.mckerral@flinders.edu.au"
+    - label: "Jody@Google Scholar"
+      icon: "fas fa-fw fa-link"
+      url: "https://scholar.google.com.au/citations?user=fgoQHfUAAAAJ"
+    - label: "Jody@Flinders"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.flinders.edu.au/people/jody.mckerral"
+
+
+Laura Inglis:
+  name        : "Laura Inglis"
+  bio         : "PhD Student"
+  avatar      : "/assets/images/profile.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:laura.inglis@flinders.edu.au"
+    - label: "Laura@GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Laura-RC"
+
+

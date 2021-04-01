@@ -1,17 +1,19 @@
 ---
 layout: posts
 category: blog
-tag: deepthought
-title: Jupyter on deepthought
-excerpt: "Running Jupyter on deepthought"
+tags: DeepThought Jupyter
+author: Rob Edwards
+title: How to run a Jupyter notebook on deepthought
+excerpt: "Most of these instructions come from the official jupyter docs and you should use those as a guide"
 ---
 
-# How to run a Jupyter notebook on deepthought
+### _Series: An Introduction To Using DeepThought For Bioinformatics_
 
-Most of these instructions come from the [official jupyter docs](https://jupyter-notebook.readthedocs.io/en/stable/public_server.html) and you should use those as a guide. I have distilled this to the essence, to make it easier to complete on deepthought.
+Most of these instructions come from the [official jupyter docs](https://jupyter-notebook.readthedocs.io/en/stable/public_server.html) 
+and you should use those as a guide. I have distilled this to the essence, to make it easier to complete on deepthought.
 
 
-## Set up.
+## Set up
 
 Before you run jupyter-notebook for the first time, we need to do some set up. If you have done this, you can skip to the [next step](#getting-started).
 
