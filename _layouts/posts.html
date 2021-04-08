@@ -16,14 +16,6 @@ layout: archive
 
 
 
-{% if page.tags.size > 0 %}
-<hr>
-{% for tag in page.tags %}
-<button onclick="location.href='/archive/#{{ tag | downcase }}'" class="btn btn--inverse">{{ tag }}</button>
-{% endfor %}
-{% endif %}
-
-
 <!--<ul class="taxonomy__index">-->
 <!--  {% assign postsInYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}-->
 <!--  {% for year in postsInYear %}-->

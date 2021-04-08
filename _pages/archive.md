@@ -1,7 +1,6 @@
 ---
 layout: tags
-permalink: /archive/
+permalink: /tags/
 title: Archive
 author_profile: true
 ---
-

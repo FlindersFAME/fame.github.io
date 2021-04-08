@@ -1,6 +1,7 @@
 ---
-layout: posts
+layout: single
 category: blog
+show_date: true
 tags: DeepThought Snakemake
 title: "Part 4: Snakemake profiles for DeepThought"
 author: Rob Edwards

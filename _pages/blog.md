@@ -6,9 +6,7 @@ author_profile: true
 ---
 
 {% for post in site.categories.blog limit:5 %}
-<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-<small>{{ post.date | date_to_string }}</small>
-<p>{{ post.excerpt | strip_html }}</p> 
+  {% include archive-single.html type=entries_layout %}
 {% endfor %}
 
 ---

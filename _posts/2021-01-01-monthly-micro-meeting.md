@@ -1,9 +1,10 @@
 ---
-layout: posts
+layout: archive
 category: events
-title: Microbiome and Metagenome monthly meeting
-excerpt: The FAME microbiome and metagenome monthly meetings (feat. 2 x 20 min talks + networking)
-expires: 9999-01-01
+tag: Regular meetings
+title: FAME Microbiome and Metagenome monthly meeting
+excerpt: Microbiome and metagenome monthly meetings (feat. 2 x 20 min talks + networking)
+expires: 2050-01-01
 ---
 
 We are pleased to announce the commencement of the new FAME microbiome and metagenome monthly meetings. 

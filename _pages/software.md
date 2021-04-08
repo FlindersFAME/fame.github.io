@@ -22,7 +22,7 @@ Browse our currently-maintained, open-source, and freely available Bioinformatic
   <ul>
     {% for post in tag[1] reversed %}
       {% if post.category == 'software' %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a>{{ post.excerpt }}</li>
+    {% include archive-single.html type=entries_layout %}
       {% endif %}
     {% endfor %}
   </ul>

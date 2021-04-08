@@ -1,9 +1,11 @@
 ---
-layout: posts
+layout: archive
 category: events
+tag: Upcoming events
+show_date: true
 title:  Royal Society of South Australia lecture feat. Liz Dinsdale
 excerpt: "Microbiomes of Chondrichthyes: Using basal vertebrates to investigate phylosymbiosis"
-expires: 2021-04-08
+expires: 2021-04-09
 ---
 
 Please join us for our next Royal Society of South Australia lecture. Our next lecture will be given by Prof. 

@@ -6,5 +6,5 @@ author_profile: true
 ---
 
 {% for post in site.categories.projects %}
-<a href="{{ post.url }}">{{ post.title }}</a><br>{{ post.excerpt | strip_html }} 
+  {% include archive-single.html type=entries_layout %}
 {% endfor %}

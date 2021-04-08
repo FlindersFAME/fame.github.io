@@ -1,6 +1,7 @@
 ---
-layout: posts
+layout: single
 category: blog
+show_date: true
 tags: DeepThought Jupyter
 author: Rob Edwards
 title: How to run a Jupyter notebook on deepthought

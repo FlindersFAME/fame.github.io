@@ -107,19 +107,19 @@ author:
   email            :
   links:
     - label: "Liz Dinsdale Lab"
-      icon: "fas fa-fw fa-link"
+      icon: "fas fa-fw fa-flask"
       url: "https://dinsdalelab.sdsu.edu/wordpress/"
     - label: "Liz@Flinders"
-      icon: "fas fa-fw fa-link"
+      icon: "far fa-fw fa-id-badge"
       url: "https://www.flinders.edu.au/people/elizabeth.dinsdale"
     - label: "Liz@Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/dinsdalelab"
     - label: "Rob Edwards Lab"
-      icon: "fas fa-fw fa-link"
+      icon: "fas fa-fw fa-flask"
       url: "https://edwards.sdsu.edu/research/"
     - label: "Rob@Flinders"
-      icon: "fas fa-fw fa-link"
+      icon: "far fa-fw fa-id-badge"
       url: "https://www.flinders.edu.au/people/robert.edwards"
     - label: "Rob@Twitter"
       icon: "fab fa-fw fa-twitter-square"
@@ -129,12 +129,12 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
+    - label: "Liz"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/dinsdalelab"
+    - label: "Rob"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/linsalrob"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/linsalrob"
@@ -283,7 +283,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: # true
       comments: # true
-      share: true
-      related: true
+      share: # true
+      related: # true

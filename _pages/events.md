@@ -3,21 +3,31 @@ layout: single
 permalink: /events/
 title: FAME Events
 author_profile: true
+etags:
+  - Regular meetings
+  - Upcoming events
 ---
 
 FAME hosts regular meetings and occasional workshops throughout the year.
-Our regular meetings include:
- - FAME microbiome and metagenome monthly meeting
- - Flinders University weekly Bioinformatics meeting
+To receive reminders for upcomming events, [join the mailing list or the FAME slack channel](/follow-us/)
 
-Upcoming events are listed below.
-To receive reminders, [join the mailing list or the FAME slack channel](/follow-us/)
 
----
+{% capture nowunix %}{{ 'now' | date: '%s' }}{% endcapture %}
 
-### Upcoming Events
+{% for etag in page.etags %}
 
-{% for post in site.categories.events %}
-<a href="{{ post.url }}">{{ post.title }}</a><br>{{ post.excerpt | strip_html }} 
+## {{ etag }}
+
+    {% for post in site.categories.events reversed %}
+        {% if post.tags contains etag %}
+            {% capture expiretime %}{{ post.expires | date: '%s'}}{% endcapture %}
+            {% if expiretime > nowunix %}
+
+{% include archive-single.html type=entries_layout %}
+
+
+            {% endif %}
+        {% endif %}
+    {% endfor %}
 {% endfor %}
 
