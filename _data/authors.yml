@@ -151,3 +151,25 @@ Evan Pargin:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/evan-pargin-189a4b202/"
+
+
+Bhavya Papudeshi:
+  name  : "Bhavya Nalagampalli Papudeshi"
+  bio   : "PhD Student"
+  avatar: "/assets/images/np.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:nala0006@flinders.edu.au"
+    - label: "Google Scholar"
+      icon: "fab fa-fw fa-google"
+      url: "https://scholar.google.com.au/citations?user=e_PvlaUAAAAJ"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/bhavyapapudeshi"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/npbhavya"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/bhavya-papudeshi/"
