@@ -1,6 +1,5 @@
 ---
 layout: archive
-category: people
 title: Evan Pargin
 author: Evan Pargin
 tag: Students

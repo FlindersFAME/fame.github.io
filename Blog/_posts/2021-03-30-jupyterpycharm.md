@@ -1,6 +1,5 @@
 ---
 layout: single
-category: blog
 show_date: true
 tags : Jupyter PyCharm
 title: Using PyCharm and Jupyter Notebooks

@@ -1,6 +1,5 @@
 ---
 layout: single
-category: blog
 show_date: true
 tags: DeepThought Snakemake
 title: "Part 3: Using snakemake on deepthought"

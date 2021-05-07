@@ -1,6 +1,5 @@
 ---
 layout: archive
-category: events
 tag: Regular meetings
 title: Flinders University weekly bioinformatics meeting
 excerpt: Weekly meeting at Flinders Uni to discuss bioinformatics-related problems/ideas

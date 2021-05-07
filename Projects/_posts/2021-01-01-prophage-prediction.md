@@ -1,6 +1,5 @@
 ---
 layout: single
-category: projects
 tags: Phage Prophage
 title: Prophage prediction software comparison
 excerpt: With the new release of Phispy2, we present a framework for prophage prediction software comparison

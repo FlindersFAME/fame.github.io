@@ -71,9 +71,8 @@ naver_site_verification  :
 
 # post collections
 collections:
-  software:
+  category:
     output: true
-  projects:
 
 # Social Sharing
 twitter:
@@ -117,7 +116,7 @@ author:
       url: "https://twitter.com/dinsdalelab"
     - label: "Rob Edwards Lab"
       icon: "fas fa-fw fa-flask"
-      url: "https://edwards.sdsu.edu/research/"
+      url: "http://edwards-lab.science/"
     - label: "Rob@Flinders"
       icon: "far fa-fw fa-id-badge"
       url: "https://www.flinders.edu.au/people/robert.edwards"

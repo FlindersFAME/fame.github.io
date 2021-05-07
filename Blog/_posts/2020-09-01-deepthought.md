@@ -1,6 +1,5 @@
 ---
 layout: single
-category: blog
 show_date: true
 title: "Part 1: DeepThought General Overview"
 author: Rob Edwards

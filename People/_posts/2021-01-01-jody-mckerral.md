@@ -1,6 +1,5 @@
 ---
 layout: archive
-category: people
 title: Jody McKerral
 author: Jody McKerral
 tag: Researchers

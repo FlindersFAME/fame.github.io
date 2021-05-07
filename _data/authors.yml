@@ -60,7 +60,7 @@ Michael Roach:
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:michael.roach@flinders.edu.au"
     - label: "Website"
-      icon: "fas fa-fw fa-link"
+      icon: "fas fa-fw fa-dna"
       url: "https://bioinf.cc"
     - label: "Google Scholar"
       icon: "fab fa-fw fa-google"

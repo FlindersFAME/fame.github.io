@@ -1,6 +1,5 @@
 ---
 layout: archive
-category: people
 title: Sarah Giles
 author: Sarah Giles
 tag: Researchers

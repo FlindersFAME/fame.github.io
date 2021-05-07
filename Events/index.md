@@ -18,7 +18,7 @@ To receive reminders for upcomming events, [join the mailing list or the FAME sl
 
 ## {{ etag }}
 
-    {% for post in site.categories.events reversed %}
+    {% for post in site.categories.Events reversed %}
         {% if post.tags contains etag %}
             {% capture expiretime %}{{ post.expires | date: '%s'}}{% endcapture %}
             {% if expiretime > nowunix %}

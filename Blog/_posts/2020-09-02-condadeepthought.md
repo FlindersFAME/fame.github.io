@@ -1,6 +1,5 @@
 ---
 layout: single
-category: blog
 show_date: true
 tag: DeepThought
 title: "Part 2: Using conda on deepthought"

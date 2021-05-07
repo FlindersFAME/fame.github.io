@@ -1,6 +1,5 @@
 ---
 layout: archive
-category: people
 title: Laura Inglis
 author: Laura Inglis
 tag: Students

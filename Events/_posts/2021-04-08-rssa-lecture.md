@@ -1,6 +1,5 @@
 ---
 layout: archive
-category: events
 tag: Upcoming events
 show_date: true
 title:  Royal Society of South Australia lecture feat. Liz Dinsdale
