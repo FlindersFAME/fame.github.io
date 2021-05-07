@@ -83,9 +83,9 @@
       border: 1px solid mix(#000, $border-color, 25%);
       border-radius: 0;
 
-      &:hover {
-        color: $link-color-hover;
-      }
+      //&:hover {
+      //  color: $link-color-hover;
+      //}
 
       &.current,
       &.current.disabled {
@@ -132,9 +132,9 @@
     border: 1px solid mix(#000, $border-color, 25%);
     border-radius: $border-radius;
 
-    &:hover {
-      @include yiq-contrasted($muted-text-color);
-    }
+    //&:hover {
+    //  @include yiq-contrasted($muted-text-color);
+    //}
 
     &:first-child {
       border-top-right-radius: 0;
@@ -187,9 +187,9 @@
     -webkit-transition: none;
     transition: none;
 
-    &:hover {
-      color: $masthead-link-color-hover;
-    }
+    //&:hover {
+    //  color: $masthead-link-color-hover;
+    //}
 
     &.site-logo {
       margin-left: 0;
@@ -251,11 +251,11 @@
         transform: scaleX(0) translate3d(0, 0, 0); // hide
       }
 
-      &:hover:before {
-        -webkit-transform: scaleX(1);
-        -ms-transform: scaleX(1);
-        transform: scaleX(1); // reveal
-      }
+      //&:hover:before {
+      //  -webkit-transform: scaleX(1) translate3d(0, 0 , 0);
+      //  -ms-transform: scaleX(1) translate3d(0, 0 , 0);
+      //  transform: scaleX(1) translate3d(0, 0 , 0); // reveal
+      //}
     }
   }
 
@@ -281,10 +281,10 @@
       padding: 10px 20px;
       font-size: $type-size-5;
 
-      &:hover {
-        color: $masthead-link-color-hover;
-        background: $navicon-link-color-hover;
-      }
+      //&:hover {
+      //  color: $masthead-link-color-hover;
+      //  background: $navicon-link-color-hover;
+      //}
     }
 
     &:before {
@@ -381,16 +381,16 @@
         transform: rotate(90deg);
       }
 
-      &:hover {
-        color: #fff;
-        border-color: $gray;
-        background-color: mix(white, #000, 20%);
-
-        &:before,
-        &:after {
-          background-color: #fff;
-        }
-      }
+      //&:hover {
+      //  color: #fff;
+      //  border-color: $gray;
+      //  background-color: mix(white, #000, 20%);
+      //
+      //  &:before,
+      //  &:after {
+      //    background-color: #fff;
+      //  }
+      //}
     }
 
     /* selected*/
@@ -430,9 +430,9 @@
         padding-bottom: 0.125em;
       }
 
-      &:hover {
-        text-decoration: underline;
-      }
+      //&:hover {
+      //  text-decoration: underline;
+      //}
     }
   }
 }
@@ -545,9 +545,9 @@
     line-height: 1.5;
     border-bottom: 1px solid $border-color;
 
-    &:hover {
-      color: $text-color;
-    }
+    //&:hover {
+    //  color: $text-color;
+    //}
   }
 
   li ul > li a {
