@@ -12,7 +12,8 @@ ptags:
 
 {% for ptag in page.ptags %}
 ## {{ ptag }}
-  {% for post in site.categories.People reversed %}
+  {% assign sortedPosts = site.categories.People | sort: 'title' %}
+  {% for post in sortedPosts %}
     {% if post.tags contains ptag %}
 <div class="author__avatar">
   <img src="{{ site.data.authors[post.author].avatar }}" style="float: left; margin-right: 20pt;">
