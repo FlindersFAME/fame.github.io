@@ -15,7 +15,7 @@ _Pleast yeet me an email if I've forgotten anything or if you notice a dead link
 ## Connecting to an external server
 
 This section applies if you are connecting to a Linux server, rather than directly working on a Linux-based PC.
-There are two types of connection's that you will need to establish. 
+There are two types of connections that you will need to establish. 
  - SSH: will let you pull up a command line terminal on the server
  - FTP: will let you transfer files between the server and your computer
 
