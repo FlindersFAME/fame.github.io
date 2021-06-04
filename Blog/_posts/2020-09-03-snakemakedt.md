@@ -1,7 +1,7 @@
 ---
 layout: single
 show_date: true
-tags: DeepThought Snakemake
+tags: DeepThought Snakemake Tutorial
 title: "Part 3: Using snakemake on deepthought"
 author: Rob Edwards
 ---

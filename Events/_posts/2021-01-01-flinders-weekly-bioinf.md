@@ -1,6 +1,6 @@
 ---
 layout: archive
-tag: Regular meetings
+tag: Regular meeting
 title: Flinders University weekly bioinformatics meeting
 excerpt: Weekly meeting at Flinders Uni to discuss bioinformatics-related problems/ideas
 expires: 2050-01-01

@@ -3,7 +3,7 @@ layout: single
 show_date: true
 title: "Part 1: DeepThought General Overview"
 author: Rob Edwards
-tag: DeepThought
+tags: DeepThought Tutorial
 excerpt: Introduction To Using the Flinders HPC 'DeepThought' For Bioinformatics
 ---
 

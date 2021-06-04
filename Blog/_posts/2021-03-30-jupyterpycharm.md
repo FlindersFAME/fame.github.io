@@ -1,7 +1,7 @@
 ---
 layout: single
 show_date: true
-tags : Jupyter PyCharm
+tags : Jupyter PyCharm Tutorial
 title: Using PyCharm and Jupyter Notebooks
 author: Rob Edwards
 excerpt: "PyCharm is a terrific Python IDE, and you should use it for code development"

@@ -1,7 +1,7 @@
 ---
 layout: single
 show_date: true
-tags : Linux tmux conda 
+tags : Linux Tutorial Conda
 title: Getting started with linux
 author: Michael Roach
 ---

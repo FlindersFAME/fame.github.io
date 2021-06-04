@@ -1,7 +1,7 @@
 ---
 layout: single
 show_date: true
-tags: DeepThought Snakemake
+tags: DeepThought Snakemake Tutorial
 title: "Part 4: Snakemake profiles for DeepThought"
 author: Rob Edwards
 excerpt: "Setting up a snakemake profile for deepthought will make your life much easier"

@@ -1,7 +1,7 @@
 ---
 layout: single
 show_date: true
-tag: DeepThought
+tags: DeepThought Conda Tutorial
 title: "Part 2: Using conda on deepthought"
 author: Rob Edwards
 excerpt: "We are going to use conda to install and update software"

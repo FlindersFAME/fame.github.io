@@ -1,7 +1,7 @@
 ---
 layout: single
 show_date: true
-tags: DeepThought Jupyter
+tags: DeepThought Jupyter Tutorial
 author: Rob Edwards
 title: How to run a Jupyter notebook on deepthought
 excerpt: "Most of these instructions come from the official jupyter docs and you should use those as a guide"
