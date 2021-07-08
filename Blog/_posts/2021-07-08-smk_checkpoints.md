@@ -1,4 +1,11 @@
-# Snakemake Checkpoints
+---
+layout: single
+show_date: true
+tags : Snakemake Checkpoints
+title: How to use Snakemake Checkpoints
+author: Rob Edwards
+---
+
 
 Snakemake checkpoints are a little complex to get your head around, and so here are two examples that will hopefully clarify some use cases.
 
