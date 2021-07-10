@@ -17,7 +17,7 @@ Before you begin, you need to request access to deepthought. Open a service one 
  - Technology
    - Request something
    - Access
-   - Ask for access to the HPC.
+   - Click `Access to Deep Thought HPC`
 
 It will take a couple of hours for the access to propogate once it has been approved, so be patient!
 
