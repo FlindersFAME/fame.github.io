@@ -145,7 +145,6 @@ latency-wait: 60
 local-cores: 8
 restart-times: 1
 max-jobs-per-second: 20
-jobs: 100
 keep-going: True
 rerun-incomplete: True
 printshellcmds: True
@@ -202,7 +201,6 @@ latency-wait: 60
 local-cores: 8
 restart-times: 1
 max-jobs-per-second: 20
-jobs: 100
 keep-going: True
 rerun-incomplete: True
 printshellcmds: True
@@ -245,7 +243,6 @@ latency-wait: 60
 local-cores: 8
 restart-times: 1
 max-jobs-per-second: 20
-jobs: 100
 keep-going: True
 rerun-incomplete: True
 printshellcmds: True
@@ -301,7 +298,6 @@ latency-wait: 60
 local-cores: 8
 restart-times: 1
 max-jobs-per-second: 20
-jobs: 100
 keep-going: True
 rerun-incomplete: True
 printshellcmds: True
