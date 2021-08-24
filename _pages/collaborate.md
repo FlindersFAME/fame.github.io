@@ -13,14 +13,16 @@ The Flinders Accelerator for Microbiome Exploration is requesting proposals to e
 provide financial and technical support, working in collaboration with you to generate preliminary data that can support 
 a grant application or publication.
 
-Submit applications, or any questions you might have to [Michael Doane](mailto:michael.doane@flinders.edu.au)
+__Applications are currently closed, [Join the mailing list](/follow-us/) to be informed when the next round opens__
 
-__Application due May 1, 2021__
+[comment]: <> (Submit applications, or any questions you might have to [Michael Doane]&#40;mailto:michael.doane@flinders.edu.au&#41;)
 
-[Download project proposal outline][1]
+[comment]: <> (__Application due May 1, 2021__)
 
-[Download project contract template][2]
+[comment]: <> ([Download project proposal outline][1])
 
-[1]:/assets/docs/FAME_project_proposal_outline.pdf
+[comment]: <> ([Download project contract template][2])
 
-[2]:/assets/docs/FAME_onboarding_project_contract.pdf
+[comment]: <> ([1]:/assets/docs/FAME_project_proposal_outline.pdf)
+
+[comment]: <> ([2]:/assets/docs/FAME_onboarding_project_contract.pdf)

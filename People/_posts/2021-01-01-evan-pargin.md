@@ -3,7 +3,7 @@ layout: archive
 title: Evan Pargin
 author: Evan Pargin
 tag: Students
-excerpt: "I'm currently completing my degree in Molecular Biosciences\n"
+excerpt: "Honours student in the Edwards lab\n"
 ---
 
 Hi my name is Evan, I'm currently completing my degree in Molecular Biosciences, with an aim to start honours in the 

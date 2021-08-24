@@ -3,7 +3,7 @@ layout: archive
 title: Laura Inglis
 author: Laura Inglis
 tag: Students
-excerpt: "I'm currently a PhD student in Rob Edwards' lab\n"
+excerpt: "PhD student in the Edwards lab\n"
 ---
 
 I'm currently a PhD student. I did my bachelor degree in science (marine biology) and spent my honours trying to refine 
