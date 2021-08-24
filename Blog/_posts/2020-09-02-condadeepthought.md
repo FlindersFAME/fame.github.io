@@ -46,10 +46,10 @@ python3.8 --version
 
 Head to the [miniconda download page](https://docs.conda.io/en/latest/miniconda.html) and download the appropriate installer.
 
-You want: 
+You want the one from _Latest Miniconda Installer Links_. Get:
 
  - **Linux Installer** 
- - **Python  3.8**
+ - **Python** with the biggest number
  - **Miniconda3 Linux 64-bit**
  
 Here is a quick way to download that script!
