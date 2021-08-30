@@ -8,7 +8,7 @@ author: Rob Edwards
 
 # super-FOCUS 
 
-Super-FOCUS is a took to identify the functions that the sequences in your metagenome are doing. As a benefit, it also identifies the taxonomy associated with those functions.
+Super-FOCUS is a tool to identify the functions that the sequences in your metagenome are doing. As a benefit, it also identifies the taxonomy associated with those functions.
 
 Super-FOCUS uses a reduced, optimized, database and fast aligners to run.
 
