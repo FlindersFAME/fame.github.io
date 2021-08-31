@@ -62,6 +62,20 @@ cp barcode_01.fastq fastq
 
 ### Running super-FOCUS
 
+
+### To run superfocus directly
+
+Use this command
+
+```bash
+superfocus --threads 8 -q fastq -b ~/superfocus_db -a diamond -dir superfocus_results
+```
+
+
+
+
+
+
 We are going to make a batch file to submit the command to the cluster. Lets call our file `superfocus.slurm`:
 
 ```bash
