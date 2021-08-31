@@ -72,6 +72,13 @@ superfocus -q fastq -b ~/superfocus_db -a diamond -dir superfocus_results
 ```
 
 
+## To run on the cluster during class
+
+
+````bash
+cp ~edwa0468/superfocus.slurm ~/
+sbatch ~/superfocus.slurm
+```
 
 
 
