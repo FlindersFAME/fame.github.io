@@ -21,7 +21,7 @@ To run Super-FOCUS you need two things:
 To install Super-FOCUS on deepthought we are going to use conda. Once you [have conda installed](2020-09-02-condadeepthought.md), \[[here are more install instructions](https://fame.flinders.edu.au/blog/2021/05/27/linux-getting-started#installing-software)\] you can just type:
 
 ```bash
-conda create -n superfocus -c bioconda super-focus
+conda create -y -n superfocus -c bioconda super-focus
 ```
 
 This will figure out all the things that need to be installed, and then install them for you. It should not take _too_ long for the installer to complete.
@@ -37,7 +37,7 @@ Next, we need to get the databases. You can use the `superfocus_downloadDB` comm
 
 
 ```
-ln -s ~edwa0468/superfocus_dbi/version1 ~/superfocus_db/
+ln -s ~edwa0468/superfocus_db/version1 ~/superfocus_db
 ```
 
 The installation is complete and now you can use it to explore your metagenomes.
