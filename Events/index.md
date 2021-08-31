@@ -18,16 +18,15 @@ To receive reminders for upcomming events, [join the mailing list or the FAME sl
 
 ## {{ etag }}
 
-    {% for post in site.categories.Events reversed %}
-        {% if post.tags contains etag %}
-            {% capture expiretime %}{{ post.expires | date: '%s'}}{% endcapture %}
-            {% if expiretime > nowunix %}
+ {% for post in site.categories.Events reversed %}
+  {% if post.tags contains etag %}
+   {% capture expiretime %}{{ post.expires | date: '%s'}}{% endcapture %}
+    {% if expiretime > nowunix %}
 
 {% include archive-single.html type=entries_layout %}
 
-
-            {% endif %}
-        {% endif %}
-    {% endfor %}
+   {% endif %} 
+  {% endif %}
+ {% endfor %}
 {% endfor %}
 

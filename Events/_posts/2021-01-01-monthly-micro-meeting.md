@@ -1,6 +1,6 @@
 ---
 layout: archive
-tag: Regular meeting
+tag: Regular meetings
 title: FAME Microbiome and Metagenome monthly meeting
 excerpt: Microbiome and metagenome monthly meetings (feat. 2 x 20 min talks + networking)
 expires: 2050-01-01
