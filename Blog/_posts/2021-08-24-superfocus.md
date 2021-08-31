@@ -68,7 +68,7 @@ cp barcode_01.fastq fastq
 Use this command
 
 ```bash
-superfocus --threads 8 -q fastq -b ~/superfocus_db -a diamond -dir superfocus_results
+superfocus -q fastq -b ~/superfocus_db -a diamond -dir superfocus_results
 ```
 
 
