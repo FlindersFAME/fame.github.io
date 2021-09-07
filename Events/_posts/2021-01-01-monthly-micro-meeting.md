@@ -1,6 +1,7 @@
 ---
 layout: archive
 tag: Regular meetings
+author: Michael Doane
 title: FAME Microbiome and Metagenome monthly meeting
 excerpt: Microbiome and metagenome monthly meetings (feat. 2 x 20 min talks + networking)
 expires: 2050-01-01
@@ -19,11 +20,9 @@ The Glenelg Surf Lifesaving Club
  - Social hour 5-6 pm
 
 Meetings are scheduled for the following Tuesdays, so please mark your calendars:
- - March 23
- - April 27
- - May 25
- - June 29
- - July 27
+ - September 28th
+ - October 19th
+ - November 30th
 
 The Glenelg SLC is conveniently located adjacent to the Moseley Square Tram Stop, and parking is available underneath 
 the venue. If you choose to drive and park, please obtain a ticket and pay inside the SLC for discounted parking 
