@@ -17,7 +17,7 @@ __TLDR at the bottom for those just wanting a profile to copy-paste__
 You can generate profiles for Snakemake using cookiecutter; more info here: [cookiecutter profiles](https://github.com/Snakemake-Profiles).
 These will generate a config.yaml file, as well as python scripts for submitting and checking jobs.
 However, you'll probably still want to do some customisation, so this post will instead continue with 
-Rob's original manually created profile, and will through the different components.
+Rob's original manually created profile, and will go through the different components.
 
 ### Original profile
 
@@ -87,10 +87,14 @@ local-cores: 8
 
 ### Improved logging
 The first issue with the log files is that the `logs/` directory needs to exist or slurm won't accept the job. We can add
-a command to create the directories if they don't exist. Next, if your workflow generates lots of jobs, and the same 
-rules are reused for different wildcards then debugging can be made easier with a better structure and filenames for the
-logs. Here we'll create directories for each rule and name the logs by their wildcards rather than just the jobid.
-While we're at it, we can customise the names of the snakemake jobs in slurm with "--job-name".
+a command to create the directories if they don't exist. 
+We can customise the names of the snakemake jobs in slurm with "--job-name".
+If your workflow generates lots of jobs, and the same rules are reused for different wildcards then debugging can be 
+made easier with a better structure and filenames for the logs. You can create directories for each rule and name the 
+logs by their wildcards rather than just the jobid. __HOWEVER, this will break Snakemake if your wildcards includes the 
+path to the file as well as the filename itself, so use with caution.__ 
+I may or may not have learned this the hard way.
+
 
 ```yaml
 # ~/.config/snakemake/slurm/config.yaml
@@ -134,9 +138,9 @@ cluster:
     --cpus-per-task={threads}
     --mem={resources.mem_mb}
     --time={resources.time}
-    --job-name=smk-{rule}-{wildcards}
-    --output=logs/{rule}/{jobid}-{wildcards}.out
-    --error=logs/{rule}/{jobid}-{wildcards}.err
+    --job-name=smk-{rule}
+    --output=logs/{rule}/{jobid}.out
+    --error=logs/{rule}/{jobid}.err
 default-resources:
   - mem_mb=2000
   - time=480
@@ -190,9 +194,9 @@ cluster:
     --cpus-per-task={threads}
     --mem={resources.mem_mb}
     --time={resources.time}
-    --job-name=smk-{rule}-{wildcards}
-    --output=logs/{rule}/{jobid}-{wildcards}.out
-    --error=logs/{rule}/{jobid}-{wildcards}.err
+    --job-name=smk-{rule}
+    --output=logs/{rule}/{jobid}.out
+    --error=logs/{rule}/{jobid}.err
 default-resources:
   - mem_mb=2000
   - time=480
@@ -228,9 +232,9 @@ cluster:
     --cpus-per-task={threads}
     --mem={resources.mem_mb}
     --time={resources.time}
-    --job-name=smk-{rule}-{wildcards}
-    --output=logs/{rule}/{jobid}-{wildcards}.out
-    --error=logs/{rule}/{jobid}-{wildcards}.err
+    --job-name=smk-{rule}
+    --output=logs/{rule}/{jobid}.out
+    --error=logs/{rule}/{jobid}.err
     --partition={resources.partition}
     --gres=gpu:{resources.gpu}
 default-resources:
@@ -283,9 +287,9 @@ cluster:
     --cpus-per-task={threads}
     --mem={resources.mem_mb}
     --time={resources.time}
-    --job-name=smk-{rule}-{wildcards}
-    --output=logs/{rule}/{jobid}-{wildcards}.out
-    --error=logs/{rule}/{jobid}-{wildcards}.err
+    --job-name=smk-{rule}
+    --output=logs/{rule}/{jobid}.out
+    --error=logs/{rule}/{jobid}.err
     --partition={resources.partition}
     --gres=gpu:{resources.gpu}
 default-resources:
