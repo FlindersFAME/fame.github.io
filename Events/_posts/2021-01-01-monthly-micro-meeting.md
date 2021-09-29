@@ -2,12 +2,15 @@
 layout: archive
 tag: Regular meetings
 author: Michael Doane
-title: FAME Microbiome and Metagenome monthly meeting
-excerpt: Microbiome and metagenome monthly meetings (feat. 2 x 20 min talks + networking)
+title: JAMS sponsored by FAME
+excerpt: Microbiome and metagenome monthly meetings (feat. talks + networking)
 expires: 2050-01-01
 ---
 
-We are pleased to announce the commencement of the new FAME microbiome and metagenome monthly meetings. 
+<br>
+<img src="/assets/images/JAMS-logo.png" width="500"/>
+
+We are pleased to announce the commencement of the JAMS sponsored by FAME microbiome and metagenome monthly meetings. 
 We will be meeting once per month in the function room at the Glenelg Surf Life Saving Club at the Glenelg foreshore.
 Each month we will have two 20-minute talks highlighting the latest advances in metagenomics and microbiome studies, 
 with one talk focused on human microbiology and the other on environmental microbiology.
