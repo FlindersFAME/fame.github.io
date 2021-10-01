@@ -6,12 +6,11 @@ author_profile: true
 etags:
   - Regular meetings
   - Upcoming events
+  - Past presentations
 ---
 
 FAME hosts regular meetings and occasional workshops throughout the year.
 To receive reminders for upcomming events, [join the mailing list or the FAME slack channel](/follow-us/)
-
-### [Past speakers](/Past-Speakers/)
 
 {% capture nowunix %}{{ 'now' | date: '%s' }}{% endcapture %}
 
