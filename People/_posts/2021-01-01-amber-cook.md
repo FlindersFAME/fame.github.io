@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: Amber Cook
-author: Amber Cook
+title: Amber Skye
+author: Amber Skye
 tag: Students
 excerpt: "Honours student in the Dinsdale lab and FAME Webmaster\n"
 ---

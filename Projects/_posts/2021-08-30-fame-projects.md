@@ -2,7 +2,7 @@
 layout: single
 tags: collaborate 
 title: FAME seed projects for 2021
-author: Amber Cook
+author: Amber Skye
 excerpt: View project summaries for the FAME seed projects for 2021
 ---
 

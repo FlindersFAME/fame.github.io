@@ -160,7 +160,7 @@ Jody McKerral:
 Laura Inglis:
   name        : "Laura Inglis"
   bio         : "PhD Student"
-  avatar      : "/assets/images/profile.png"
+  avatar      : "/assets/images/laura.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -217,8 +217,8 @@ Bhavya Papudeshi:
       url: "https://www.linkedin.com/in/bhavya-papudeshi/"
 
 
-Amber Cook:
-  name        : "Amber Cook"
+Amber Skye:
+  name        : "Amber Skye"
   bio         : "Honours Student"
   avatar      : "/assets/images/cook.jpg"
   links:
