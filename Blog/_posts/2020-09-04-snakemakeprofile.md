@@ -10,7 +10,7 @@ excerpt: "Setting up a snakemake profile for deepthought will make your life muc
 ### _Series: An Introduction To Using DeepThought For Bioinformatics_
 
 
-Please note: much of this information was distilled from [this great blog post](https://www.sichong.site/2020/02/25/snakemake-and-slurm-how-to-manage-workflow-with-resource-constraint-on-hpc/) about snakemake profiles
+Please note: much of this information was distilled from [this great blog post](https://www.sichong.site/workflow/2021/11/08/how-to-manage-workflow-with-resource-constraint.html) about snakemake profiles
 
 That post has more information and details and you should take some time to read it and the associated post about running snakemake on the cluster. However, this will get you started on deepthought.
 
