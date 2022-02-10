@@ -9,6 +9,7 @@ excerpt: "Setting up a snakemake profile for deepthought will make your life muc
 
 ### _Series: An Introduction To Using DeepThought For Bioinformatics_
 
+*Please note:* Mike posted a [much better and more detailed](https://fame.flinders.edu.au/blog/2021/08/02/snakemake-profiles-updated) profile explanation. You should use that!
 
 Please note: much of this information was distilled from [this great blog post](https://www.sichong.site/workflow/2021/11/08/how-to-manage-workflow-with-resource-constraint.html) about snakemake profiles
 
