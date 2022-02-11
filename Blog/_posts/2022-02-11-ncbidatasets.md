@@ -61,96 +61,95 @@ Note that we use `awk` to only print out one line per accession (otherwise we ge
 This table will have the following columns:
 
 
-0	Annotation Info BUSCO Complete
-1	Annotation Info BUSCO Duplicated
-2	Annotation Info BUSCO Fragmented
-3	Annotation Info BUSCO Lineage
-4	Annotation Info BUSCO Missing
-5	Annotation Info BUSCO Single Copy
-6	Annotation Info BUSCO Total Count
-7	Annotation Info BUSCO Version
-8	Annotation Info Count Gene Non-coding
-9	Annotation Info Count Gene Other
-10	Annotation Info Count Gene Protein-coding
-11	Annotation Info Count Gene Pseudogene
-12	Annotation Info Count Gene Total
-13	Annotation Info Name
-14	Annotation Info Release Date
-15	Annotation Info Report URL
-16	Annotation Info Source
-17	Assembly Accession
-18	Assembly BioProject Lineage Accession
-19	Assembly BioProject Lineage Parent Accessions
-20	Assembly BioProject Lineage Title
-21	Assembly BioSample Accession
-22	Assembly BioSample Attribute Name
-23	Assembly BioSample Attribute Value
-24	Assembly BioSample BioProject Accession
-25	Assembly BioSample BioProject Parent Accessions
-26	Assembly BioSample BioProject Title
-27	Assembly BioSample Description Comment
-28	Assembly BioSample Description Organism Common Name
-29	Assembly BioSample Description Organism Organism Name
-30	Assembly BioSample Description Organism Pangolin Classification
-31	Assembly BioSample Description Organism Strain
-32	Assembly BioSample Description Organism Taxonomic ID
-33	Assembly BioSample Description Title
-34	Assembly BioSample Sample Identifiers Database
-35	Assembly BioSample Sample Identifiers Label
-36	Assembly BioSample Sample Identifiers Value
-37	Assembly BioSample Last updated
-38	Assembly BioSample Models
-39	Assembly BioSample Owner Contact Lab
-40	Assembly BioSample Owner Name
-41	Assembly BioSample Package
-42	Assembly BioSample Publication date
-43	Assembly BioSample Status Status
-44	Assembly BioSample Status When
-45	Assembly BioSample Submission date
-46	Assembly Blast URL
-47	Assembly Description
-48	Assembly GenBank Accession
-49	Assembly Level
-50	Assembly Linked Assembly
-51	Assembly Name
-52	Assembly Paired Accession
-53	Assembly RefSeq Accession
-54	Assembly Refseq Dategory
-55	Assembly Sequencing Tech
-56	Assembly Submission Date
-57	Assembly Submitter
-58	Assembly Type
-59	Assembly UCSC Assembly Name
-60	Assembly Stats Contig L50
-61	Assembly Stats Contig N50
-62	Assembly Stats Gaps Between Scaffolds Count
-63	Assembly Stats GC Count
-64	Assembly Stats Number of Component Sequences
-65	Assembly Stats Number of Contigs
-66	Assembly Stats Number of Scaffolds
-67	Assembly Stats Scaffold L50
-68	Assembly Stats Scaffold N50
-69	Assembly Stats Total Number of Chromosomes
-70	Assembly Stats Total Sequence Length
-71	Assembly Stats Total Ungapped Length
-72	Breed
-73	Common name
-74	Cultivar
-75	Ecotype
-76	Isolate
-77	Organelle Assembly Name
-78	Organelle BioProject Accessions
-79	Organelle Description
-80	Organelle Infraspecific Name
-81	Organelle Submitter
-82	Organelle Total Seq Length
-83	Organism name
-84	Sex
-85	Strain
-86	Taxonomic ID
-87	WGS contigs URL
-88	WGS project accession
-89	WGS URL
-
+0. Annotation Info BUSCO Complete
+1. Annotation Info BUSCO Duplicated
+2. Annotation Info BUSCO Fragmented
+3. Annotation Info BUSCO Lineage
+4. Annotation Info BUSCO Missing
+5. Annotation Info BUSCO Single Copy
+6. Annotation Info BUSCO Total Count
+7. Annotation Info BUSCO Version
+8. Annotation Info Count Gene Non-coding
+9. Annotation Info Count Gene Other
+10. Annotation Info Count Gene Protein-coding
+11. Annotation Info Count Gene Pseudogene
+12. Annotation Info Count Gene Total
+13. Annotation Info Name
+14. Annotation Info Release Date
+15. Annotation Info Report URL
+16. Annotation Info Source
+17. Assembly Accession
+18. Assembly BioProject Lineage Accession
+19. Assembly BioProject Lineage Parent Accessions
+20. Assembly BioProject Lineage Title
+21. Assembly BioSample Accession
+22. Assembly BioSample Attribute Name
+23. Assembly BioSample Attribute Value
+24. Assembly BioSample BioProject Accession
+25. Assembly BioSample BioProject Parent Accessions
+26. Assembly BioSample BioProject Title
+27. Assembly BioSample Description Comment
+28. Assembly BioSample Description Organism Common Name
+29. Assembly BioSample Description Organism Organism Name
+30. Assembly BioSample Description Organism Pangolin Classification
+31. Assembly BioSample Description Organism Strain
+32. Assembly BioSample Description Organism Taxonomic ID
+33. Assembly BioSample Description Title
+34. Assembly BioSample Sample Identifiers Database
+35. Assembly BioSample Sample Identifiers Label
+36. Assembly BioSample Sample Identifiers Value
+37. Assembly BioSample Last updated
+38. Assembly BioSample Models
+39. Assembly BioSample Owner Contact Lab
+40. Assembly BioSample Owner Name
+41. Assembly BioSample Package
+42. Assembly BioSample Publication date
+43. Assembly BioSample Status Status
+44. Assembly BioSample Status When
+45. Assembly BioSample Submission date
+46. Assembly Blast URL
+47. Assembly Description
+48. Assembly GenBank Accession
+49. Assembly Level
+50. Assembly Linked Assembly
+51. Assembly Name
+52. Assembly Paired Accession
+53. Assembly RefSeq Accession
+54. Assembly Refseq Dategory
+55. Assembly Sequencing Tech
+56. Assembly Submission Date
+57. Assembly Submitter
+58. Assembly Type
+59. Assembly UCSC Assembly Name
+60. Assembly Stats Contig L50
+61. Assembly Stats Contig N50
+62. Assembly Stats Gaps Between Scaffolds Count
+63. Assembly Stats GC Count
+64. Assembly Stats Number of Component Sequences
+65. Assembly Stats Number of Contigs
+66. Assembly Stats Number of Scaffolds
+67. Assembly Stats Scaffold L50
+68. Assembly Stats Scaffold N50
+69. Assembly Stats Total Number of Chromosomes
+70. Assembly Stats Total Sequence Length
+71. Assembly Stats Total Ungapped Length
+72. Breed
+73. Common name
+74. Cultivar
+75. Ecotype
+76. Isolate
+77. Organelle Assembly Name
+78. Organelle BioProject Accessions
+79. Organelle Description
+80. Organelle Infraspecific Name
+81. Organelle Submitter
+82. Organelle Total Seq Length
+83. Organism name
+84. Sex
+85. Strain
+86. Taxonomic ID
+87. WGS contigs URL
+88. WGS project accession
+89. WGS URL
 
 
