@@ -7,7 +7,7 @@ author: Rob Edwards
 ---
 
 
-Recently, [NCBI](https://www.ncbi.nlm.nih.gov/) released their new [datasets](https://www.ncbi.nlm.nih.gov/datasets/docs/) API that might replace [NCBI E-utils](https://github.com/NCBI-Hackathons/EDirectCookbook). At the moment, datasets is focused on genomes, genes, and viruses, but no doubt it will expand over time.
+Recently, [NCBI](https://www.ncbi.nlm.nih.gov/) released their new [datasets](https://www.ncbi.nlm.nih.gov/datasets/docs/) API that might replace [NCBI E-utils](https://github.com/NCBI-Hackathons/EDirectCookbook). At the moment, datasets is focused on genomes, genes, and viruses, but no doubt it will expand over time. (Note: I think the name is terrible, and they should use `ncbi_datasets` (see [this tweet](https://twitter.com/linsalrob/status/1391160747380539397?s=20&t=c5UDKbt_NjX0KQP77i-kZA))
 
 Here is a rough guide to extracting some data about genomes using `datasets`.
 
@@ -151,5 +151,54 @@ This table will have the following columns:
 87. WGS contigs URL
 88. WGS project accession
 89. WGS URL
+
+# Running on all the accessions
+
+Now we can put that together and run this on all the accessions at NCBI. 
+
+_Note:_ Before you start this it is imperative you have an [NCBI API Key set up](https://ncbiinsights.ncbi.nlm.nih.gov/2017/11/02/new-api-keys-for-the-e-utilities/). 
+
+We can make a simple script to process a lot of accessions at once. From trial and error, it appears that the limit is ~500 accessions, so we set that as our limit.
+
+Lets have a little slurm script that sets this up as an array job:
+
+
+```bash
+#SBATCH --time=2-0
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+
+# How much memory. I usually request 2000M (2 GB) if I am not sure
+#SBATCH --mem=4G
+
+# bash strict mode
+set -euo pipefail
+
+# have we run already?
+if [ -e ncbi/ncbi_${SLURM_ARRAY_TASK_ID}.tsv ]; then exit 0; fi
+
+# sleep for upto two minutes to delay concurrent jobs
+sleep $((RANDOM%120))
+
+# who many accessions to get at a time?
+NUM=500
+END=$(((SLURM_ARRAY_TASK_ID*NUM)+1))
+
+# generate the list of accessions
+ACC=$(head -n $END ../assembly_summary_20220130.txt | tail -n $NUM | grep -v \# | cut -f 1 | tr \\n \ )
+
+# download the data
+datasets download genome accession $ACC --exclude-genomic-cds --exclude-gff3 --exclude-protein --exclude-rna --exclude-seq  --filename ncbi/ncbi_${SLURM_ARRAY_TASK_ID}.zip
+
+# extract it to a tsv file
+dataformat tsv genome --package  ncbi/ncbi_${SLURM_ARRAY_TASK_ID}.zip | awk -F"\t" '!s[$18]++ {print}' > ncbi/ncbi_${SLURM_ARRAY_TASK_ID}.tsv
+```
+
+
+Now you can submit this as an array job, say running max 10 at once so NCBI doesn't get too upset:
+
+```bash
+sbatch --array=1-1000%10 extract_all_info.sh
+```
 
 
