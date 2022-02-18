@@ -16,6 +16,7 @@ DeepMind's [AlphaFold](https://github.com/deepmind/alphafold) is winning at pred
 We took the [NCBI version of &lambda;](https://www.ncbi.nlm.nih.gov/nuccore/NC_001416.1/) and extracted all the proteins, and then ran them through AlphaFold. It was able to make a prediction for all the proteins except for three proteins: [NP_040594.1](https://www.ncbi.nlm.nih.gov/protein/NP_040594.1/) (144 amino acids), [NP_040597.1](https://www.ncbi.nlm.nih.gov/protein/NP_040597.1/) (232 amino acids), and [NP_040645.1](https://www.ncbi.nlm.nih.gov/protein/NP_040645.1) (158 amino acids). 
 
 [![Structures of all phage &lambda; proteins](/assets/images/phage_lambda/phage_lambda.png "Aren't they pretty!")](/assets/images/phage_lambda//phage_lambda.png)
+<small>[Click for a larger version]</small>
 
 As you can see, many of the structures are just predicted to be long alpha helices with little order, but some of the structures are complex and closer representation to the predicted structures.
 
