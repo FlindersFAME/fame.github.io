@@ -21,6 +21,7 @@ ptags:
 <a href="{{ post.url }}">{{ post.title }}</a><br>
 {{ post.excerpt }}
 <br>
+<br>
     {% endif %}
   {% endfor %}
 {% endfor %}
