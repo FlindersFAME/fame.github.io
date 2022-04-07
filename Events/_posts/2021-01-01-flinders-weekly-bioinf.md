@@ -1,7 +1,7 @@
 ---
 layout: archive
 tag: Regular meetings
-title: Flinders University fortnightly bioinformatics meeting
+title: FAME Fortnightly Bioinf Meeting
 excerpt: Fortnightly meeting at Flinders Uni to discuss bioinformatics-related problems/ideas
 expires: 2050-01-01
 ---
