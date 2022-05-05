@@ -15,10 +15,9 @@ Meetings are held every other Wednesday from __4-5 pm__, usually in teaching spa
 
 Upcoming meetings:
 
-- __30th March: PHYS0008:__ _PyCharm, GitHub, and MobaXterm_
-- ~~13th April: PHYS0007~~ __Rescheduled:__
-- __20th April: Studio 2 (Behind Grind'n'Press):__ _Binning metagenomes_
-- __27th April: PHYS0008:__ _Metagenome assemblies_
-- __11th May: PHYS0008:__ _TBA_
+- __11th May: PHYS0008:__ Introduction to Snakemake
+- __25th May: PHYS0008:__ TBA
+- __8th June: PHYS0008:__ TBA
+
 
 [Flinders University map](https://www.flinders.edu.au/content/dam/documents/campus/maps/campus-map.pdf)
