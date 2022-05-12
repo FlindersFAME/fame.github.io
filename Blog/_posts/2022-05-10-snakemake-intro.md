@@ -50,6 +50,11 @@ git clone https://github.com/snakemake/snakemake-tutorial-data.git
 # Minimum requirements for Snakefile
 
 Using the same concept as before, you start with your destination, _then_ you describe the journey.
+__By default, Snakemake runs the first rule it encounters in the Snakefile.__
+This is important because we use the first rule--`rule all`-- to declare the pipeline targets.
+There are no outputs or shell command for rule all,
+so the rule just tells Snakemake that we need the file "A.sam".
+
 Create a file called `Snakefile` and add the following:
 
 ```
@@ -69,7 +74,7 @@ rule map_reads:
         "minimap2 -a -x sr genome.fa A.fastq > A.sam"
 ```
 
-This is your pipeline and Snakemake will recognise it when you run `Snakemake`.
+This is your pipeline and Snakemake will recognise it when you run Snakemake.
 The only thing you need to tell Snakemake at this stage is how many concurrent jobs to run.
 For only 1 job at a time, you would run this:
 
@@ -78,7 +83,7 @@ For only 1 job at a time, you would run this:
 If you name your snakefile something else you need to tell Snakemake that it is your Snakefile. 
 e.g. 
 
-`snakemake -s mySnakeFile.smk -j 1`.
+`snakemake -s mySnakeFile.smk -j 1`
 
 # Chaining rules
 
@@ -648,6 +653,132 @@ include: 'rules/mapping.smk'
 
 rule all:
     input:
-        expand("output/{sample}.{file}", sample=config['samples'], file=['bam','reads.tsv'])
+        expand(out_dir + "/{sample}.{file}", sample=config['samples'], file=['bam','reads.tsv'])
+```
+
+# Python's os.path
+
+You can make use of Python's os.path library for managing file paths.
+Notice in our pipeline we have to be careful about placing in our forward slashes,
+especially when using variables as part of the file path?
+What if your pipeline is designed to work on both Windows and Linux? 
+You'd need to replace all those forward slashes with backslashes. 
+
+Instead of writing your file paths like this:
+
+```
+out_dir + "/{file}.bam"
+```
+
+You can write like this:
+
+```
+os.path.join(out_dir, "{file}.bam")
+```
+
+and you don't have to worry about keeping track of where you need to include your slashes,
+or what slashes to use.
+
+# Input functions and lambda functions
+
+Delving further into Python, you can write your own functions and use them in rules (or anywhere).
+At the moment, we are assuming that the reads for sample "A" will be called "A.fastq".
+We can let the user specify both the sample name, and its read file.
+Update the config file to make the samples a dictionary, specifying sample name and read file like so:
+
+```yaml
+genome: genome.fa
+samples:
+  A: reads/A.fastq
+  B: reads/B.fastq
+  C: reads/C.fastq
+outputDirectory: output
+readDirectory: reads
+minimapParameters: -x sr
+```
+
+`config['samples']` will now be a dictionary where the keys are the sample names, and the values are the read files.
+We need to make a list of the keys to use with declaring targets.
+We do that with `list(keys(config['samples']))`, which will collect the keys for the dictionary,
+and then convert it to a list.
+We then write a function to find the read file based on the wildcard that will match the sample name.
+Input functions take a single wildcards object, so you can design the functions with that in mind.
+
+```
+configfile: "config.yaml"
+
+temp_dir = 'temp'
+out_dir = config['outputDirectory']
+read_dir = config['readDirectory']
+
+# MAKE A NEW SAMPLE LIST
+sample_dictionary = config['samples']
+sample_list = list(keys(sample_dictionary))
+
+# WRITE FUNCTION TO RETURN READS FILES OF SAMPLES
+def reads_from_wildcards_sample(wildcards):
+    return sample_dictionary[wildcards.sample]
+
+include: 'rules/mapping.smk'
+
+# UPDATE TARGETS TO USE YOUR NEW sample_list
+rule all:
+    input:
+        expand(out_dir + "/{sample}.{file}", sample=sample_list, file=['bam','reads.tsv'])
+```
+
+Then, to use this function update rule "map_reads" in your "rules/mapping.smk" file.
+__Don't end the function name with parenthesis.__
+You want to pass the function itself, not the result of the function.
+
+```
+rule map_reads:
+    input:
+        genome = config['genome'],
+        reads_from_wildcards_sample
+    output:
+        temp(temp_dir + "/{sample}.sam")
+    threads:
+        8
+    params:
+        config['minimapParameters']
+    conda:
+        '../envs/minimap2.yaml'
+    log:
+        '../logs/map_reads.{sample}.log'
+    shell:
+        """
+        minimap2 -t {threads} -a {params} \
+            {input.genome} {input.reads} \
+            2> {log} > {output}
+        """
+```
+
+An alternative would be to embed the whole function into the rule itself using a Python lambda function.
+Lambda functions are small anonymous functions using the syntax `lambda arguments : expression`.
+In this case you don't need to write the `reads_from_wildcards_sample` function at all;
+instead you simply modify the "map_reads" rule like so:
+
+```
+rule map_reads:
+    input:
+        genome = config['genome'],
+        lambda wildcards: sample_dictionary[wildcards.sample]
+    output:
+        temp(temp_dir + "/{sample}.sam")
+    threads:
+        8
+    params:
+        config['minimapParameters']
+    conda:
+        '../envs/minimap2.yaml'
+    log:
+        '../logs/map_reads.{sample}.log'
+    shell:
+        """
+        minimap2 -t {threads} -a {params} \
+            {input.genome} {input.reads} \
+            2> {log} > {output}
+        """
 ```
 
