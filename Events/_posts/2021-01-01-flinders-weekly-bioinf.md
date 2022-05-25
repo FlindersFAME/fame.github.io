@@ -16,7 +16,7 @@ Meetings are held every other Wednesday from __4-5 pm__, usually in teaching spa
 Upcoming meetings:
 
 - __11th May: PHYS0008:__ Introduction to Snakemake
-- __25th May: PHYS0008:__ TBA
+- __25th May: PHYS0008:__ Intro to Snakemake part 2
 - __8th June: PHYS0008:__ TBA
 
 
