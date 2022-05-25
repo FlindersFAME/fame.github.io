@@ -57,7 +57,7 @@ so the rule just tells Snakemake that we need the file "A.sam".
 
 Create a file called `Snakefile` and add the following:
 
-```
+```python
 # Targets - what is the final thing the pipeline will make?
 rule all:
     input:
@@ -90,7 +90,7 @@ e.g.
 SAM files are stupid, lets convert it to a BAM file.
 Update the targets (your destination) and add a new rule for file conversion.
 
-```
+```python
 # Targets
 rule all:
     input:
@@ -135,7 +135,7 @@ Snakemake uses jinja variables (curly braces) for wildcards and accessing elemen
 Inputs and outputs can be accessed from the shell commands as these jinja variables.
 If you're familiar with Python, these are __not__ the same as f-strings.
 
-```
+```python
 # jinja variable - variable is interpreted by Snakemake
 "{file}.bam"
 
@@ -146,7 +146,7 @@ f"{file}.bam"
 Wildcards must be consistent and present in both inputs and outputs.
 They can be accessed in the shell command by prepending _wildcards._ like below.
 
-```
+```python
 rule convert_sam:
     input:
         "{file}.sam"
@@ -170,7 +170,7 @@ This can get confusing quickly so named inputs are better.
 
 convert the rule to use wildcards, and convert the inputs to named inputs.
 
-```
+```python
 rule map_reads:
     input:
         genome = "genome.fa",
@@ -187,7 +187,7 @@ rule map_reads:
 Now that our rules will work with any sample names, lets declare the other samples as targets.
 We can do this one-by-one like so:
 
-```
+```python
 rule all:
     input:
         "A.bam",
@@ -200,7 +200,7 @@ The expand function lets you declare multiple samples with similar prefixes and/
 You can use this function to declare targets, or in regular rules for inputs or outputs etc.
 You can also use it outside of rules in regular Python code.
 
-```
+```python
 rule all:
     input:
         expand("{sample}.bam", sample=['A','B','C'])
@@ -213,7 +213,7 @@ We can tell Snakemake to delete any intermediate files as soon as it doesn't nee
 We do this by marking them as temporary with `temp()` or `temporary()`.
 Only outputs can be marked as temporary.
 
-```
+```python
 rule map_reads:
     input:
         genome = "genome.fa",
@@ -230,7 +230,7 @@ If a certain job is very computationally expensive,
 you can make the output write-protected to prevent accidental deletion.
 Just mark it with `protected()`
 
-```
+```python
 rule convert_sam:
     input:
         "{file}.sam"
@@ -270,7 +270,7 @@ To use this config file in our pipeline, we can pass it when we run it like so:
 
 or specify the config file name in the pipeline:
 
-```
+```python
 configfile: "config.yaml"
 ```
 
@@ -280,7 +280,7 @@ the command line option `--configfile` will override the file specified in the S
 We can now access the config variables in the pipeline via a dictionary variable called 'config'.
 Let's update our pipeline to remove the hard-coded file names and use the config dictionary.
 
-```
+```python
 configfile: "config.yaml"
 
 rule all:
@@ -313,7 +313,7 @@ Create a folder called `reads/` and move the sample `.fastq` files there.
 Make sure the new file paths are specified in either the config file, or the Snakefile.
 Let's save the SAM files to `temp/` and the BAM files to `output/`.
 
-```
+```python
 configfile: "config.yaml"
 
 rule all:
@@ -356,7 +356,7 @@ readDirectory: reads
 In the Snakefile, use Python's plus symbol for string concatenation to combine string variables with bare strings.
 e.g. `out_dir + "/{sample}.bam"` will result in `"output/{sample}.bam"`.
 
-```
+```python
 configfile: "config.yaml"
 
 temp_dir = 'temp'
@@ -394,7 +394,7 @@ We can tell Snakemake how many threads a job will use, and it will adjust jobs a
 
 Let's tell Snakemake to use 8 threads for the mapping step with `Threads:` and tell Minimap to use that many threads.
 
-```
+```python
 rule map_reads:
     input:
         genome = config['genome'],
@@ -434,7 +434,7 @@ minimapParameters: -x sr
 
 in the Snakefile:
 
-```
+```python
 rule map_reads:
     input:
         genome = config['genome'],
@@ -471,7 +471,7 @@ dependencies:
 
 Use this environment in a rule with `conda:` like so:
 
-```
+```python
 rule map_reads:
     input:
         genome = config['genome'],
@@ -505,7 +505,7 @@ A Snakemake rule does not have to be a shell job, you can run some python code i
 Lets add a rule to count the reads in the .fastq files, and update the targets.
 Run directives are useful because they can directly access the input and output variables as well as global variables.
 
-```
+```python
 rule all:
     input:
         expand("output/{sample}.{file}", sample=config['samples'], file=['bam','reads.tsv'])
@@ -529,15 +529,18 @@ With the script directive, you can access the snakemake inputs, outputs etc via 
 
 Create a folder called `scripts/`, and add a file in it called `count_reads.py`:
 
-```
+```python
 with open(snakemake.output[0],'w') as out:
-    count = file_len(snakemake.input[0]) / 4
-    out.write(snakemake.wildcards.sample + '\t' + count + '\n')
+    with open(snakemake.input[0],'r') as f:
+        for i, l in enumerate(f):
+            pass
+        count = str((i + 1) / 4)
+        out.write(snakemake.wildcards.sample + '\t' + count + '\n')
 ```
 
 update the rule to use the script directive:
 
-```
+```python
 rule all:
     input:
         expand("output/{sample}.{file}", sample=config['samples'], file=['bam','reads.tsv'])
@@ -554,231 +557,4 @@ rule count_reads:
 __Like with envs, the script paths are always relative to the Snakefile.__
 So much cleaner, isn't it?
 
-# Log files
-
-If you scale up your pipeline to lots of threads and lots of samples you will have many steps running concurrently.
-When you have jobs that fail it will dump the error messages to the terminal with everything else making debugging hard.
-It's better to redirect error messages to a log file for each job.
-This is very easy to do, simply declare a log file that uses the wildcard for a rule,
-and in the command, redirect STDERR to the log file (with `2>`).
-
-Let's update the minimap2 rule to include logging, 
-and we'll split it over multiple lines as it's starting to get a bit long.
-
-```
-rule map_reads:
-    input:
-        genome = config['genome'],
-        reads = read_dir + "/{sample}.fastq"
-    output:
-        temp(temp_dir + "/{sample}.sam")
-    threads:
-        8
-    params:
-        config['minimapParameters']
-    conda:
-        'envs/minimap2.yaml'
-    log:
-        'logs/map_reads.{sample}.log'
-    shell:
-        """
-        minimap2 -t {threads} -a {params} \
-            {input.genome} {input.reads} \
-            2> {log} > {output}
-        """
-```
-
-If one of your minimap2 jobs fails, Snakemake will tell you which log file to look at.
-
-# Include
-
-After a while, you might find that your pipeline is turning into a gigantic file of thousands of lines of code etc.
-You can use the `include:` directive to drop in code from another file as if it were there in the main Snakefile.
-
-Let's put all of our rules (except rule all) into their own file.
-Make a directory called `rules/`, and create a file called `mapping.smk`.
-Cut and past the rules into this new file and add an include statement in `Snakefile`.
-__Don't forget to update the relative paths for scripts, conda environments etc.__
-
-```
-# file: reads/mapping.smk
-rule count_reads:
-    input:
-        read_dir + "/{sample}.fastq"
-    output:
-        out_dir + "/{sample}.reads.tsv"
-    script:
-        "../scripts/count_reads.py"
-
-rule convert_sam:
-    input:
-        temp_dir + "/{file}.sam"
-    output:
-        out_dir + "/{file}.bam"
-    shell:
-        "samtools view -bh {input} > {output}"
-
-rule map_reads:
-    input:
-        genome = config['genome'],
-        reads = read_dir + "/{sample}.fastq"
-    output:
-        temp(temp_dir + "/{sample}.sam")
-    threads:
-        8
-    params:
-        config['minimapParameters']
-    conda:
-        '../envs/minimap2.yaml'
-    log:
-        '../logs/map_reads.{sample}.log'
-    shell:
-        """
-        minimap2 -t {threads} -a {params} \
-            {input.genome} {input.reads} \
-            2> {log} > {output}
-        """
-```
-
-Update your Snakefile to include this new rule file.
-
-```
-configfile: "config.yaml"
-
-temp_dir = 'temp'
-out_dir = config['outputDirectory']
-read_dir = config['readDirectory']
-
-include: 'rules/mapping.smk'
-
-rule all:
-    input:
-        expand(out_dir + "/{sample}.{file}", sample=config['samples'], file=['bam','reads.tsv'])
-```
-
-# Python's os.path
-
-You can make use of Python's os.path library for managing file paths.
-Notice in our pipeline we have to be careful about placing in our forward slashes,
-especially when using variables as part of the file path?
-What if your pipeline is designed to work on both Windows and Linux? 
-You'd need to replace all those forward slashes with backslashes. 
-
-Instead of writing your file paths like this:
-
-```
-out_dir + "/{file}.bam"
-```
-
-You can write like this:
-
-```
-os.path.join(out_dir, "{file}.bam")
-```
-
-and you don't have to worry about keeping track of where you need to include your slashes,
-or what slashes to use.
-
-# Input functions and lambda functions
-
-Delving further into Python, you can write your own functions and use them in rules (or anywhere).
-At the moment, we are assuming that the reads for sample "A" will be called "A.fastq".
-We can let the user specify both the sample name, and its read file.
-Update the config file to make the samples a dictionary, specifying sample name and read file like so:
-
-```yaml
-genome: genome.fa
-samples:
-  A: reads/A.fastq
-  B: reads/B.fastq
-  C: reads/C.fastq
-outputDirectory: output
-readDirectory: reads
-minimapParameters: -x sr
-```
-
-`config['samples']` will now be a dictionary where the keys are the sample names, and the values are the read files.
-We need to make a list of the keys to use with declaring targets.
-We do that with `list(keys(config['samples']))`, which will collect the keys for the dictionary,
-and then convert it to a list.
-We then write a function to find the read file based on the wildcard that will match the sample name.
-Input functions take a single wildcards object, so you can design the functions with that in mind.
-
-```
-configfile: "config.yaml"
-
-temp_dir = 'temp'
-out_dir = config['outputDirectory']
-read_dir = config['readDirectory']
-
-# MAKE A NEW SAMPLE LIST
-sample_dictionary = config['samples']
-sample_list = list(keys(sample_dictionary))
-
-# WRITE FUNCTION TO RETURN READS FILES OF SAMPLES
-def reads_from_wildcards_sample(wildcards):
-    return sample_dictionary[wildcards.sample]
-
-include: 'rules/mapping.smk'
-
-# UPDATE TARGETS TO USE YOUR NEW sample_list
-rule all:
-    input:
-        expand(out_dir + "/{sample}.{file}", sample=sample_list, file=['bam','reads.tsv'])
-```
-
-Then, to use this function update rule "map_reads" in your "rules/mapping.smk" file.
-__Don't end the function name with parenthesis.__
-You want to pass the function itself, not the result of the function.
-
-```
-rule map_reads:
-    input:
-        genome = config['genome'],
-        reads_from_wildcards_sample
-    output:
-        temp(temp_dir + "/{sample}.sam")
-    threads:
-        8
-    params:
-        config['minimapParameters']
-    conda:
-        '../envs/minimap2.yaml'
-    log:
-        '../logs/map_reads.{sample}.log'
-    shell:
-        """
-        minimap2 -t {threads} -a {params} \
-            {input.genome} {input.reads} \
-            2> {log} > {output}
-        """
-```
-
-An alternative would be to embed the whole function into the rule itself using a Python lambda function.
-Lambda functions are small anonymous functions using the syntax `lambda arguments : expression`.
-In this case you don't need to write the `reads_from_wildcards_sample` function at all;
-instead you simply modify the "map_reads" rule like so:
-
-```
-rule map_reads:
-    input:
-        genome = config['genome'],
-        lambda wildcards: sample_dictionary[wildcards.sample]
-    output:
-        temp(temp_dir + "/{sample}.sam")
-    threads:
-        8
-    params:
-        config['minimapParameters']
-    conda:
-        '../envs/minimap2.yaml'
-    log:
-        '../logs/map_reads.{sample}.log'
-    shell:
-        """
-        minimap2 -t {threads} -a {params} \
-            {input.genome} {input.reads} \
-            2> {log} > {output}
-        """
-```
-
+__Continued in [part 2](https://fame.flinders.edu.au/blog/2022/05/25/snakemake-intro-pt2) of our Snakemake tutorial__
