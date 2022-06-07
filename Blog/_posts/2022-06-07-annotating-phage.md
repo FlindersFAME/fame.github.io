@@ -1,7 +1,8 @@
 ---
 layout: single
 show_date: true
-title: "Annotating phage for therapeutics"
+title: "Therapeutic Annotation of Phage Genomes"
+tags: phage genomics annotation
 author: Rob Edwards
 excerpt: "What should we worry about before we inject phage into people?"
 ---
@@ -41,8 +42,10 @@ It is generally accepted that lysogeny is bad for therapeutic phages. It can lea
 
 
 # Ensemble approaches for therapeutic phages
-- [Phage Leads](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8879740/)
+- [Phage Leads](https://www.mdpi.com/1999-4915/14/2/342)
 - [MultiPHATE](https://academic.oup.com/bioinformatics/article/35/21/4402/5488969) and Carol's [GitHub Repo](https://github.com/carolzhou/multiPhATE)
 - [MultiPHATE2](https://academic.oup.com/g3journal/article/11/5/jkab074/6178284) and Carol's [GitHub Repo](https://github.com/carolzhou/multiPhATE2)
 - [Characterizing Phage Genomes for Therapeutic Applications](https://www.mdpi.com/1999-4915/10/4/188)
+
+
 
