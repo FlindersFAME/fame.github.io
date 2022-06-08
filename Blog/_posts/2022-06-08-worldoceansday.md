@@ -6,7 +6,7 @@ author: Amber Skye
 excerpt: "Celebrating World Oceans Days with the Dinsdale Lab research group.\n"
 ---
 
-![](/assets/images/wod1.jpg)
+![](/assets/images/WOD2.jpg)
 
 Microbes are tiny but mighty and are incredibly important marine organisms. Oceanic microbes contribute between 50 and
 80% of the oxygen we breathe. Microbes inhabit all marine ecosystems, form beautiful coral reefs to deep sea
