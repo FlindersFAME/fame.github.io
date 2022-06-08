@@ -6,14 +6,14 @@ author: Amber Skye
 excerpt: "Celebrating World Oceans Days with the Dinsdale Lab research group.\n"
 ---
 
-![](/assets/images/WOD.jpg)
+![](/assets/images/wod1.jpg)
 
 Microbes are tiny but mighty and are incredibly important marine organisms. Oceanic microbes contribute between 50 and
 80% of the oxygen we breathe. Microbes inhabit all marine ecosystems, form beautiful coral reefs to deep sea
 hydrothermal vents. They also form relationships with host organisms. Relationships between microbes and their host
 vary, and we are just beginning to understand these complex relationships.
 
-The Dinsdale lab studies microbes associated with ecologically important hosts, including sharks and corals.
+The Dinsdale lab (https://linktr.ee/dinsdalelab) studies microbes associated with ecologically important hosts, including sharks and corals.
 Sharks have important ecological functions, and many species are understudied, and their populations are threatened by
 human activity. Whale shark microbiomes vary across days which hints that their microbiome may change in response to
 host requirements and environmental factors (Skye et al. In Prep). Shark microbiomes follow patterns of phylosymbiosis,
