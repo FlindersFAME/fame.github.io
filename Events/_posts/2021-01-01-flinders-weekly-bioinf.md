@@ -1,7 +1,7 @@
 ---
 layout: archive
 tag: Regular meetings
-title: Flinders University fortnightly bioinformatics meeting
+title: FAME Fortnightly Bioinf Meeting
 excerpt: Fortnightly meeting at Flinders Uni to discuss bioinformatics-related problems/ideas
 expires: 2050-01-01
 ---
@@ -11,13 +11,13 @@ discuss any bioinformatics-related problems, or ideas they might have.
 
 ### Where and When?
 
-Meetings are held every other Wednesday from 4-5 pm in teaching spaces in Anchor court
+Meetings are held every other Wednesday from __4-5 pm__, usually in teaching spaces off Anchor court.
 
-Upcoming room bookings:
+Upcoming meetings:
 
-- 30th March: PHYS0008
-- 13th April: PHYS0007
-- 27th April: PHYS0008
-- 11th May: PHYS0008
+- __11th May: PHYS0008:__ Introduction to Snakemake
+- __25th May: PHYS0008:__ Intro to Snakemake part 2
+- __8th June: PHYS0008:__ TBA
+
 
 [Flinders University map](https://www.flinders.edu.au/content/dam/documents/campus/maps/campus-map.pdf)
