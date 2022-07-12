@@ -6,8 +6,6 @@ author: Amber Skye
 excerpt: View all FAME posters and talks presented at ASM 2022!
 ---
 
-More slides and posters still to come.
-
 # Talks
 
 __Elizabeth Dinsdale__, _Microbes and viruses of Chondrichthyes_,
