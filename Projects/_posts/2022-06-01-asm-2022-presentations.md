@@ -10,6 +10,9 @@ More slides and posters still to come.
 
 # Talks
 
+__Elizabeth Dinsdale__, _Microbes and viruses of Chondrichthyes_,
+[SLIDES](https://cloudstor.aarnet.edu.au/plus/s/KbVqoeCz7nDV42q)
+
 __Michael Doane__, _Emergent microbiome architecture_,
 [SLIDES](https://cloudstor.aarnet.edu.au/plus/s/tg05owg1vvbmLMU)
 
