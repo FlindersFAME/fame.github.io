@@ -13,6 +13,10 @@ More slides and posters still to come.
 __Susanna Grigson__, _Nomads emerge from natural microbial communities_,
 [SLIDES](https://cloudstor.aarnet.edu.au/plus/s/evZ1wOjSRuoTqRR/download)
 
+__Vijini Mallawaarachchi__, _Viral bubbles resolve bacteriophage genomes_,
+[SLIDES](https://cloudstor.aarnet.edu.au/plus/s/HoUo8jJkvlpk8MP)
+
+
 # Posters
 
 __Laura Inglis__, _Prophage concentrations vary throughtout the human body_,
