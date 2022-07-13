@@ -21,7 +21,7 @@ __Vijini Mallawaarachchi__, _Viral bubbles resolve bacteriophage genomes_,
 [SLIDES](https://cloudstor.aarnet.edu.au/plus/s/HoUo8jJkvlpk8MP)
 
 __Michael Roach__, _Hecatomb: a platform for viral metagenomics_,
-[SLIDES comming soon](#)
+[SLIDES](https://cloudstor.aarnet.edu.au/plus/s/AfMYay7EQMEbAjF)
 
 
 # Posters
