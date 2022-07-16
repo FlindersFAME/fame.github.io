@@ -9,15 +9,15 @@ excerpt: "Most of these instructions come from the official jupyter docs and you
 
 This blog post covers a couple of tips and tricks for setting up a jupyter notebook on a deepthought node, so you can leave it running and forget it.
 
-There is a [separate post](2021-03-01-jupyterdt.md) for running jupyter on the head node, but this is a better way of getting it to work.
+There is a [separate post](https://fame.flinders.edu.au/blog/2021/03/01/jupyterdt) for running jupyter on the head node, but this is a better way of getting it to work.
 
 Thanks to Susie who gave me the code, but I think she got it from someone else (??)
 
 Steps:
 
-[Installing Jupyter with Conda](#installing-jupyter)
-[ssh tunneling](#ssh-tunneling)
-[Adding nb_conda_kernels](#adding_nb_conda_kernels)
+- [Installing Jupyter with Conda](#installing-jupyter)
+- [ssh tunneling](#ssh-tunneling)
+- [Adding nb_conda_kernels](#adding_nb_conda_kernels)
 
 
 # Installing Jupyter
@@ -35,7 +35,7 @@ The gotcha that I ran into is that you should specify conda-forge because the ve
 
 # Setting up a slurm script
 
-I use [this slurm script](slurm/jupyter_deepthought.slurm) to run. 
+I use [this slurm script](/assets/slurm/jupyter_deepthought.slurm) to run. 
 
 I submit this to the cluster like this:
 
@@ -94,16 +94,16 @@ You will need this information for setting up ssh tunneling described below.
 
 ## Using mobaxterm
 
-This is the easiest way to set it up on Windows. Click on the ![tunneling](images/tunneling.png) icon to access the tunneling settings.
+This is the easiest way to set it up on Windows. Click on the ![tunneling](/assets/images/tunneling.png) icon to access the tunneling settings.
 
 We are going to start a new *local port forwarding* option, and you can fill in the fields here:
 
-![tuneling setup](tunneling_setup.png)
+![tuneling setup](/assets/images/tunneling_setup.png)
 
 *Note 1:* If you always set the local port to 8100 you never have to reset it. _However_ if you have more than one jupter lab notebook running, you will need to set that to a different number on the next tunnel (e.g. 8101).
 *Note 2:* Almost certainly your notebook will be running on a different port than 8398. You *should use the port listed in the output as shown above*.
 
-Click save and then the ![start all tunnels](start.png) icon to start all the tunnels. 
+Click save and then the ![start all tunnels](/assets/images/start.png) icon to start all the tunnels. 
 
 Now you can open up your web browser and connect to `https://localhost:8100`
 
@@ -139,4 +139,4 @@ mamba install -y ipykernel
 
 Now, when you click in the top right and choose to change your kernel, you will see your different conda environments available:
 
-![conda environments](images/envs.png)
+![conda environments](/assets/images/envs.png)
