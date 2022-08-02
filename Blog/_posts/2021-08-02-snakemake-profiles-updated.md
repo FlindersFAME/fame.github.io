@@ -278,6 +278,8 @@ rule yeet:
 
 ### TLDR 
 
+_UPDATE 02-08-2022: add `--parsable` to `slurm/config.yaml` for compatibility with Snakemake > 7.10 ish_
+
 my current config.yaml file (save to `~/.config/snakemake/slurm/config.yaml`):
 
 ```yaml
@@ -288,15 +290,16 @@ cluster:
     --mem={resources.mem_mb}
     --time={resources.time}
     --job-name=smk-{rule}
+    --parsable
     --output=logs/{rule}/{jobid}.out
     --error=logs/{rule}/{jobid}.err
-    --partition={resources.partition}
-    --gres=gpu:{resources.gpu}
+#    --partition={resources.partition}
+#    --gres=gpu:{resources.gpu}
 default-resources:
   - mem_mb=2000
   - time=480
-  - partition=hpc_general
-  - gpu=0
+#  - partition=hpc_general
+#  - gpu=0
 jobs: 100
 latency-wait: 60
 local-cores: 8
