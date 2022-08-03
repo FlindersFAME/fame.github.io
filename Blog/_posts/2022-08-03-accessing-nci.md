@@ -82,6 +82,9 @@ Files created by user/project
 
 ```shell
 nci-files-report
+```
+
+```shell
 nci-files-report --project <project_code>
 ```
 
@@ -91,6 +94,9 @@ Upload data to Gadi from local PC
 
 ```shell
 scp –r <file/folder> <username>@gadi-dm.nci.org.au:<destination>
+```
+
+```shell
 rsync -ravPS <file/folder> <username>@gadi-dm.nci.org.au:<destination>
 ```
 
@@ -98,6 +104,9 @@ Download data from Gadi to local PC
 
 ```shell
 scp –r <username>@gadi-dm.nci.org.au:<file/folder> <destination>
+```
+
+```shell
 rsync -ravPS <username>@gadi-dm.nci.org.au:<file/folder> <destination>
 ```
 
@@ -113,6 +122,9 @@ Load the module into your current shell environment and check
 
 ```shell
 module load <software>/<version>
+```
+
+```shell
 which <software>
 ```
 
@@ -153,6 +165,9 @@ Check status of your jobs
 
 ```shell
 qstat 
+```
+
+```shell
 qstat -u <username>
 ```
 
