@@ -68,4 +68,13 @@ This will run a merge on your main branch and the upstream users main branch. Ho
 git merge upstream/main
 ```
 
+## Step 5: fetch and merge
+
+If you need to pull again, use the two commands fetch/merge to get the new data and merge it into your codebase:
+
+```
+git fetch upstream
+git merge upstream/main
+```
+
 
