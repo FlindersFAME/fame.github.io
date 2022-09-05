@@ -10,6 +10,28 @@ excerpt: "We are going to use conda to install and update software"
 ### _Series: An Introduction To Using DeepThought For Bioinformatics_
 
 
+There are two ways to set up `conda` on deepthought. The easy way or the hard way. You choose!
+
+# 1. The easy way: Set up conda using modules
+
+
+The conda `module` is available on deepthought, so we can load it and initialise conda:
+
+```bash
+module load Miniconda3
+conda init bash
+conda create -n bioinformatics
+```
+
+Now log  out of the computer. When you log back in you have conda activated, but you can not write to the `base` install, so before you use it you need to 
+
+```bash
+conda activate bioinformatics
+```
+
+
+# 2. The hard way: Set up conda by installing it
+
 ## Activate Python
 
 We are going to use [conda](https://docs.conda.io/en/latest/) to install and update software. Before we begin, we need to activate the `python` module that is not initiated by default.
