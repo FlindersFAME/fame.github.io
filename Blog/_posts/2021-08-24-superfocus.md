@@ -50,6 +50,30 @@ The installation is complete and now you can use it to explore your metagenomes.
 
 ## Using super-FOCUS on deepthought
 
+## Using Super-FOCUS in class
+
+You can set a variable with the name of the directory:
+
+
+```bash
+export FQDIR=BTEC_Water
+```
+
+and then copy Rob's slurm file:
+
+``bash
+cp ~edwa0468/superfocus.slurm .
+```
+
+and then submit that to the cluster:
+
+```bash
+sbatch superfocus.slurm
+```
+
+This will create a **new** directory called `BTEC_Water.superfocus_results`
+
+
 ### Before you begin
 
 Super-FOCUS requires that your input fastq files be in a directory. We're going to make a directory called `fastq` and copy the data into there. Change `barcode_01.fastq` to the name of your fastq file!!
