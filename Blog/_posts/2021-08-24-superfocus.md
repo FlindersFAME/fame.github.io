@@ -61,7 +61,7 @@ export FQDIR=BTEC_Water
 
 and then copy Rob's slurm file:
 
-``bash
+```bash
 cp ~edwa0468/superfocus.slurm .
 ```
 
