@@ -42,9 +42,37 @@ This will figure out all the things that need to be installed, and then install 
 Next, we need to get the databases. You can use the `superfocus_downloadDB` command to download them, you can download them [indvidually](https://github.com/metageni/SUPER-FOCUS/issues/66), or if you are on deepthought you can use Rob's version of the databases.  Just set up a variable to access them like this:
 
 
+If you are taking Rob's class you can do this:
+
 ```bash
-conda env config vars set SUPERFOCUS_DB=/home/edwa0468/superfocus_db/version2/
+conda env config vars set SUPERFOCUS_DB=/home/edwa0468/superfocus_db/version1
 ```
+
+
+> **NOTE:**
+> Run this command to test your diamond version:
+>
+> `diamond --version`
+>
+> If you have version v0.9.0 to v0.9.18 you need to use version 1 of the database
+> If you have version v0.9.19 to v0.9.24 you need to use version 2 of the database
+> If you have v0.9.25 onwards you need to use version 3 of the database
+> 
+> You can change the config setting above like this:
+>
+> `conda env config vars set SUPERFOCUS_DB=/home/edwa0468/superfocus_db/version1`
+> `conda env config vars set SUPERFOCUS_DB=/home/edwa0468/superfocus_db/version2`
+> `conda env config vars set SUPERFOCUS_DB=/home/edwa0468/superfocus_db/version3`
+>
+> Or you can download the databases here:
+> [diamond v1](https://cloudstor.aarnet.edu.au/plus/s/6VRP2aJNkmUAcvk/download)
+> [diamond v2](https://cloudstor.aarnet.edu.au/plus/s/ABAbFgoUow9Swpi/download)
+> [diamond v3](https://cloudstor.aarnet.edu.au/plus/s/OU5PasQIF3kYQ5m/download)
+>
+> If you use `mmseqs` there is only one version of the database:
+> [mmseqs](https://cloudstor.aarnet.edu.au/plus/s/M1KHPaZbkABhmHL/download)
+
+
 
 The installation is complete and now you can use it to explore your metagenomes. Next time, you can skip this section.
 
