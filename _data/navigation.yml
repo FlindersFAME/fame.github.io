@@ -6,11 +6,13 @@ main:
      url: /about/
    - title: "Research"
      url: /research/
-   - title: "Collaborate"
-     url: /collaborate/
+#   - title: "Collaborate"
+#     url: /collaborate/
    - title: "Events"
      url: /events/
    - title: "Blog"
      url: /blog/
+   - title: "Workshops"
+     url: /workshops/
    - title: "Follow"
      url: /follow-us/

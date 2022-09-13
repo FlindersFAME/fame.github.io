@@ -7,6 +7,9 @@ author_profile: true
 
 Find out all about our projects, software, and the people doing the research at FAME.
 
+### [Collaborate](/collaborate/)
+Collaborate with us!
+
 ### [Projects](/projects/)
 Browse active projects
 
