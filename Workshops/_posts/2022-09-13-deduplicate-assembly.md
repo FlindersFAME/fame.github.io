@@ -71,10 +71,8 @@ There are few things you can do with Quast, but we just want to get the basic me
 
 <details>
     <summary>Halp plz</summary>
-    
-    quast assembly.fasta
-
-</details>
+quast assembly.fasta
+</details><br>
 
 You should now have a quast_results folder containing the quast report in a bunch of different formats. 
 Download the report.html for a pretty report, or, cat the report.txt to look at the results in the teminal.
@@ -129,15 +127,9 @@ Again, try to figure out the command that you need to run.
 <details>
     <summary>Halp plz</summary>
 
-```text
-# Use the -a flag to output SAM format
-# Use -x map-pb to use pacbio mapping settings
-# Pipe it with | to samtools sort
-
 minimap2 -ax map-pb assembly.fasta reads.fasta.gz | samtools sort > alignment.bam
-```
 
-</details>
+</details><br>
 
 __Is it running too slowly?
 Download the alignment.__
@@ -159,12 +151,8 @@ and the larger peak corresponding to the haplotype-fused contigs.
 
 <details>
     <summary>Halp plz</summary>
-
-```shell
 purge_haplotigs hist -b alignment.bam -g assembly.fasta
-```
-
-</details>
+</details><br>
 
 ### Pick some cutoffs to capture the two peaks
 
@@ -174,8 +162,7 @@ Check out this example to give you an idea [exampleHistogram.png](/assets/images
 <details>
     <summary>Halp plz</summary>
     I'm going with low=10, mid=40, high=110
-
-</details>
+</details><br>
 
 ## Step 7: Mark potential duplicate contigs
 
@@ -184,12 +171,8 @@ This step will create a `coverage_stats.csv` which will have the "junk" contigs 
 
 <details>
     <summary>Halp plz</summary>
-
-```shell
 purge_haplotigs cov -i aligned.bam.gencov -l 15 -m 40 -h 110
-```
-
-</details>
+</details><br>
 
 ## Step 8: Purge the duplicate contigs
 
@@ -199,12 +182,8 @@ which will contain the purged duplicates.
 
 <details>
     <summary>Halp plz</summary>
-
-```shell
 purge_haplotigs purge -g assembly.fasta -c coverage_stats.csv
-```
-
-</details>
+</details><br>
 
 ## Step 9: Re-evaluate the assembly
 
@@ -213,12 +192,8 @@ Rerun Quast and see if we're closer to our expected genome size of 38 Mbp.
 
 <details>
     <summary>Halp plz</summary>
-
-```shell
 quast curated.fasta
-```
-
-</details>
+</details><br>
 
 You should get something like this:
 
