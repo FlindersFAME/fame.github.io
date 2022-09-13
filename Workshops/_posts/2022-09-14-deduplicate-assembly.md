@@ -1,9 +1,9 @@
 ---
 layout: single
 show_date: true
-tags : "genome assembly"
 title: Deduplicating a genome assembly
 author: Michael Roach
+excerpt: "Learn all about deduplicating highly heterozygous genome assemblies"
 ---
 
 ## Step 1: Login to Deepthought
