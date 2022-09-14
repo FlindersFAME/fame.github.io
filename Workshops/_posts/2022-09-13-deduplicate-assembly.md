@@ -231,3 +231,14 @@ to see how the bimodal peaks compare to before.
 ## Congrats!
 
 You've just deduplicated an assembly. yay!
+
+## Bonus round
+
+Download the original Haplotigs.
+
+```shell
+wget -O assembly.haplotigs.fasta "https://cloudstor.aarnet.edu.au/plus/s/nOWmpNiemvUUsjQ/download"
+```
+
+Combine them with the reassigned haplotigs and create a dotplot with MUMmer.
+
