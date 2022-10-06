@@ -37,6 +37,20 @@ This is probably overkill because we only have one attribute in our data.
 jq -r '.acc' bq-results-20221006-054328-1665035790273.json > SRA-metagenomes.txt
 ```
 
+# Find all the information about all the sequences
+
+We can edit the above SQL to get all the information about all the metagenomes. Basically, we just change the second `select` statement.
+
+
+```
+create temp table AMPLICON(acc STRING) as select acc as amplicon from `nih-sra-datastore.sra.metadata` where assay_type = 'AMPLICON' or libraryselection = 'PCR';
+select * from `nih-sra-datastore.sra.metadata` where acc not in (select acc from AMPLICON) and (librarysource = "METAGENOMIC" or librarysource = 'METATRANSCRIPTOMIC' or organism like "%microbiom%" OR organism like "%metagenom%");
+```
+
+_Note:_ In this query, the parenthesis are important to make sure we do the `and` and `or` in the right place.
+
+Then you can export the data as a JSON Newline file to Google Drive. 
+
 
 # Current results
 
