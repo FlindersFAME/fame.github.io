@@ -6,7 +6,7 @@ author: Michael Roach
 excerpt: "Yet another Snakemake tutorial, part 2"
 ---
 
-__This post continues from [part 1](https://fame.flinders.edu.au/blog/2022/05/10/snakemake-intro) of our Snakemake tutorial__
+__This post continues from [part 1](https://fame.flinders.edu.au/workshops/2022/05/10/snakemake-intro) of our Snakemake tutorial__
 
 # Recap
 

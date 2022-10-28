@@ -15,9 +15,9 @@ Meetings are held every other Wednesday from __4-5 pm__, usually in teaching spa
 
 Upcoming meetings:
 
-- __11th May: PHYS0008:__ Introduction to Snakemake
-- __25th May: PHYS0008:__ Intro to Snakemake part 2
-- __8th June: PHYS0008:__ TBA
-
+- __2nd Nov: PHYS0008:__ Processing your metagenomics seq data pt1
+- __16th Nov: PHYS0008:__ Processing your metagenomics seq data pt2
+- __30th Nov: PHYS0008:__ TBA
+- __14th Dec: PHYS0008:__ TBA
 
 [Flinders University map](https://www.flinders.edu.au/content/dam/documents/campus/maps/campus-map.pdf)
