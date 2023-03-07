@@ -2,7 +2,7 @@
 layout: archive
 title: Amber Skye
 author: Amber Skye
-tag: Students
+tag: Alumni
 excerpt: "Honours student in the Dinsdale lab and FAME Webmaster\n"
 ---
 
