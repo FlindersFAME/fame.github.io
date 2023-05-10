@@ -8,6 +8,17 @@ author: Robert Edwards
 
 Recently, our HPC, [deepthought](https://deepteachweb.flinders.edu.au/dtdash/) has been running low on storage space. There are several options, but one that we are using is to combine deepthought, rclone, onedrive, and teams to move data into the cloud and share it with other users.
 
+# Considerations using Teams to share data.
+
+1. Each team has a limit of 25 TB. But you can have lots of teams, so perhaps one for Admin, one for Members, or one for very specific subsets of data.
+2. Consider using channels within teams to organise the data. You can restrict channels to specific sets of users, but note that we haven't (yet) figured out how to rsync to private channels.
+3. The maximum file size is 250GB so you may need to split larger files. If you try to upload a file that is too large it will get rejected before it even starts.
+4. We recommend the excellent `rclone` for copying data on and off.
+5. Teams is cloud-based, and is _not_ backed up (but there may be duplicate copies). You should ensure that essential data is on the R Drive which is fully backed up.
+6. Teams allows sharepoint-based file sharing for people beyond Flinders. R-drive does not.
+
+Refer to this [infographic for more data storage options](https://staff.flinders.edu.au/research/research-data-storage-services).
+
 You need to start by connecting Teams and rclone.
 
 ## 1. Getting ready
