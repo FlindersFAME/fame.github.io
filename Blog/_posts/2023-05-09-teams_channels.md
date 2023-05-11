@@ -228,5 +228,6 @@ Command | Meaning
 `rclone ls SharedDataNotOnScratch:` | Recursively ist the files at the `SharedDataNotOnScratch` location
 `rclone sync LocalDirectory/ SharedDataNotOnScratch:RemoteDirectory/` | recursively copy the files from LocalDirectory/ into RemoteDirectory/. Like with `rsync`, the meaning of the trailing slash is important  - if they are both the same, like in the example, the RemoteDirectory will be created and the files will be right there.
 `rclone copy localfile SharedDataNotOnScratch:remotefile` | copy a single file
+`rclone check localDirectory/ SharedDataNotOnScratch:RemoteDirectory/` | Compare the files on local and remote by md5sum and file size. Report any that are not matched.
 
 Now you can move all your data off deepthought and onto MS Teams!
