@@ -56,7 +56,7 @@ Liz Dinsdale:
 
 Michael Roach:
   name        : "Michael Roach"
-  bio         : "Research Associate in Bioinformatics"
+  bio         : "Research Fellow in Bioinformatics"
   avatar      : "/assets/images/roach.jpg"
   links:
     - label: "Email"
@@ -90,7 +90,7 @@ Michael Roach:
 
 Michael Doane:
   name        : "Michael Doane"
-  bio         : "FAME Liaison & Research Associate"
+  bio         : "FAME Liaison & Research Fellow"
   avatar      : "/assets/images/doane.jpg"
   links:
     - label: "Email"
@@ -520,6 +520,40 @@ Haylee Smith:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "http://www.linkedin.com/in/haylee-smith-823151237"
+#    - label: "Twitter"
+#      icon: "fab fa-fw fa-twitter-square"
+#      url: ""
+#    - label: "GitHub"
+#      icon: "fab fa-fw fa-github"
+#      url: ""
+#    - label: "Bitbucket"
+#      icon: "fab fa-fw fa-bitbucket"
+#      url: ""
+
+
+Jessica Carlson-Jones:
+  name        : "Jessica Carlson-Jones"
+  bio         : "Research Associate"
+  avatar      : "/assets/images/jess.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:jessica.carlsonjones@flinders.edu.au"
+#    - label: "Website"
+#      icon: "fas fa-fw fa-dna"
+#      url: ""
+    - label: "Google Scholar"
+      icon: "fab fa-fw fa-google"
+      url: "https://scholar.google.com.au/citations?user=321IOyQAAAAJ"
+    - label: "ORCID"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0000-0002-2862-0338"
+    - label: "Flinders"
+      icon: "far fa-fw fa-id-badge"
+      url: "https://www.flinders.edu.au/people/jessica.carlsonjones"
+#    - label: "LinkedIn"
+#      icon: "fab fa-fw fa-linkedin"
+#      url: ""
 #    - label: "Twitter"
 #      icon: "fab fa-fw fa-twitter-square"
 #      url: ""
