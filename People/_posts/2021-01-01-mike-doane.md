@@ -3,7 +3,7 @@ layout: archive
 title: Michael Doane
 author: Michael Doane
 tag: Researchers
-excerpt: "FAME Liaison and Research Associate\n"
+excerpt: "FAME Liaison and Research Fellow in the Dinsdale lab\n"
 ---
 
 Research focuses on understanding the relationship of microbial organisms to host organisms, in particular marine fishes

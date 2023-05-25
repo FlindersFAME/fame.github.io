@@ -3,7 +3,7 @@ layout: archive
 title: Michael Roach
 author: Michael Roach
 tag: Researchers
-excerpt: "Research Associate in Bioinformatics in Rob Edwards' lab and FAME webmaster\n"
+excerpt: "Research Fellow in Bioinformatics in the Edwards lab and FAME webmaster\n"
 ---
 
 I’m a Research Associate (bioinformatician) at the new Flinders Accelerator for Microbiome Exploration.

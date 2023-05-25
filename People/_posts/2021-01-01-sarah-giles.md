@@ -3,7 +3,7 @@ layout: archive
 title: Sarah Giles
 author: Sarah Giles
 tag: Researchers
-excerpt: "Postdoctoral Research Associate as part of the FAME laboratory at Flinders University\n"
+excerpt: "Research Associate in the Edwards lab\n"
 ---
 
 I currently hold the position of Postdoctoral Research Associate as part of the FAME laboratory at Flinders University. 

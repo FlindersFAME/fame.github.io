@@ -3,7 +3,7 @@ layout: archive
 title: Vijini Mallawaarachchi
 author: Vijini Mallawaarachchi
 tag: Researchers
-excerpt: "Research Associate in Rob Edwards' lab\n"
+excerpt: "Research Associate in the Edwards lab\n"
 ---
 
 Vijini is currently a Research Associate in Bioinformatics at the Flinders Accelerator for Microbiome Exploration (FAME). 

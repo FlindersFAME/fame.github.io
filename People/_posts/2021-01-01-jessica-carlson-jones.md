@@ -3,7 +3,7 @@ layout: archive
 title: Jessica Carlson-Jones
 author: Jessica Carlson-Jones
 tag: Researchers
-excerpt: "Research Associate\n"
+excerpt: "Research Associate in the Edwards lab\n"
 ---
 
 Jess has an interest in collaborating with clinicians on combining clinical data with metagenomic sequencing to 
