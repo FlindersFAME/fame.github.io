@@ -61,3 +61,21 @@ write.table(tax_table(p), "p_tax.tsv", sep="\t")
 ```
 
 
+## Read those files into Python
+
+You can now use pandas to read those files into Python:
+
+```Python
+import pandas as pd
+
+otu = pd.read_csv("p_otu.tsv", sep="\t")
+otu
+
+# sometimes the sample metadata has characters that can't be read using `utf-8` so we have to use `latin-1`
+samples = pd.read_csv("p_sample.tsv", sep="\t", encoding='latin-1')
+samples
+
+tax = pd.read_csv("p_tax.tsv", sep="\t")
+tax
+```
+
