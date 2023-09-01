@@ -2,7 +2,7 @@
 layout: archive
 title: Ewan Burns
 author: Ewan Burns
-tag: Students
+tag: Alumni
 excerpt: "Honours student in the Dinsdale lab\n"
 ---
 
