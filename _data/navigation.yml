@@ -8,11 +8,11 @@ main:
      url: /research/
 #   - title: "Collaborate"
 #     url: /collaborate/
-   - title: "Events"
+   - title: "Outreach"
      url: /events/
    - title: "Blog"
      url: /blog/
-   - title: "Workshops"
-     url: /workshops/
+#   - title: "Workshops"
+#     url: /workshops/
    - title: "Follow"
      url: /follow-us/
