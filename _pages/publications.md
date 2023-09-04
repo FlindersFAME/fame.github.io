@@ -29,7 +29,7 @@ to Coral Health and Ecosystem Functioning Shaped at Reef Scale
 <small>Nicole R Foster, Belinda Martin, Jurian Hoogewerff, Michael G Aberle, Patrice de Caritat, Paul Roffey, Robert Edwards, Arif Malik, Priscilla Thwaites, Michelle Waycott, Jennifer Young (2023), [Forensic Science International](https://doi.org/10.1016/j.forsciint.2023.111599)</small>
 
 ### Plassembler: an automated bacterial plasmid assembly tool
-George Bouras, Anna E Sheppard, Vijini Mallawaarachchi, Sarah Vreugde (2023), [Bioinformatics](https://doi.org/10.1093/bioinformatics/btad409)</small>
+<small>George Bouras, Anna E Sheppard, Vijini Mallawaarachchi, Sarah Vreugde (2023), [Bioinformatics](https://doi.org/10.1093/bioinformatics/btad409)</small>
 
 ### Metaproteomics profiling of the microbial communities in fermentation starters (Daqu) during multi-round production of Chinese liquor
 <small>Jinzhi Zhao, Yi Yang, Mengjing Teng, Jianxujie Zheng, Bing Wang, Vijini Mallawaarachchi, Yu Lin, Ziyu Fang, Chengpin Shen, Shaoning Yu, Fan Yang, Liang Qiao, Li Wang (2023), [Frontiers in Nutrition](https://doi.org/10.3389/fnut.2023.1139836)</small>
@@ -46,6 +46,11 @@ George Bouras, Anna E Sheppard, Vijini Mallawaarachchi, Sarah Vreugde (2023), [B
 ### What the protein!? Computational methods for predicting microbial protein functions
 <small>Susanna Grigson, Robert Edwards (2023), [OSF Preprints](Grigson_WhatTheProtein.pdf)</small>
 
+## The Promise and Pitfalls of Prophages
+<small> Jody C. McKerral, Bhavya Papudeshi, Laura K. Inglis, Michael J. Roach, Przemyslaw Decewicz, Katelyn McNair, Antoni Luque, Elizabeth A. Dinsdale, Robert A. Edwards, (2023), [BioRxiv](https://doi.org/10.1101/2023.04.20.537752)</small>
+
+## Phables: from fragmented assemblies to high-quality bacteriophage genomes
+<small>Vijini Mallawaarachchi, Michael J. Roach, Bhavya Papudeshi, Sarah K. Giles, Susanna R. Grigson, Przemyslaw Decewicz, George Bouras, Ryan D. Hesse, Laura K. Inglis, Abbey L. K. Hutton, Elizabeth A. Dinsdale, Robert A. Edwards, (2023), [BioRxiv](https://doi.org/10.1101/2023.04.04.535632)</small>
 
 ## 2022
 
@@ -106,6 +111,9 @@ George Bouras, Anna E Sheppard, Vijini Mallawaarachchi, Sarah Vreugde (2023), [B
 
 ### A bioinformatic pipeline for simulating viral integration data
 <small>Suzanne Scott, Susanna Grigson, Felix Hartkopf, Claus V Hallwirth, Ian E Alexander, Denis C Bauer, Laurence OW Wilson (2022), [Data in Brief](https://doi.org/10.1016/j.dib.2022.108161)</small>
+
+### How Metagenomics Has Transformed Our Understanding of Bacteriophages in Microbiome Research
+<small>Laura K. Inglis and Robert A. Edwards, (2022), [Microorganisms](https://doi.org/10.3390%2Fmicroorganisms10081671)</small>
 
 ## 2021
 
