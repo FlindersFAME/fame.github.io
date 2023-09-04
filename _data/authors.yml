@@ -732,7 +732,7 @@ Will Plewa:
 Clarice Harker:
   name        : "Clarice Harker"
   bio         : "Honours student"
-  avatar      : "/assets/images/Clrice.jpg"
+  avatar      : "/assets/images/Clarice.jpeg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

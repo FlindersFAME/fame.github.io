@@ -13,6 +13,10 @@ Next, in the most comprehensive prophage analysis to date, we analysed over two 
 ## Prophages of the Human Body
 
 
+Bacteriophages (phages) are a ubiquitous part of all microbiomes and the human microbiome is no exception. Many spend time integrated into their host bacteria's genomes as prophages, with almost all bacteria thought to have prophages. Prophages are often harmless to us but some can, while integrated into their hosts genomes, provide genes that protect the bacteria in various ways, including providing it with toxin-production genes. In these cases prophages can be a cause of illnesses such as cholera (cholera toxin), diphtheria (diphtheria toxin) or food poisoning (shiga toxin). 
+
+To gain an overview of just how common prophages are in the human microbiome we have mined GenBank for bacterial genomes isolated from different areas of the human body and analysed them with PhiSpy and AMRFinder+ to determine a) how common are prophages in the human microbiome and how much of the bacterial genomes are made up of prophage DNA, b) whether that amount of prophage DNA varies between areas of the body, or host health, and c) to find out how common phages that contain antimicrobial resistance and virulence genes are, what kinds of genes they can provide, and if there are any genes that are only provided by prophages. 
+
 ## The Human Panvirome
 
 The human body contains a multitude of disparate microbial communities with viruses constituting a ubiquitous component of these microbiomes. Understanding viromes—the viral population of a microbiome—as a key component of human microbiomes is crucial to the future of human health. Unfortunately, this human meta-virome is currently poorly understood.
