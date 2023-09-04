@@ -14,6 +14,7 @@ Learn all about FAME-ous people
 Collaborate with us!
 
 ### [Publications](/publications/)
+Check out these amazing publications from our FAME-ous researchers!
 
 ### [Projects](/projects/)
 Browse active projects
