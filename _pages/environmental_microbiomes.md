@@ -6,9 +6,8 @@ permalink: /environmental-microbiomes/
 
 ## Global whale shark microbiomes
 
-[Press release: phys.org](https://phys.org/news/2023-08-whale-shark-health-habitat-dietand.html)
-
-[Press release: forbes.com](https://www.forbes.com/sites/melissacristinamarquez/2023/08/30/unveiling-the-microscopic-universe-of-whale-sharks/?sh=4f6d3cc142fb)
+Read the press releases from [phys.org](https://phys.org/news/2023-08-whale-shark-health-habitat-dietand.html)
+and [forbes.com](https://www.forbes.com/sites/melissacristinamarquez/2023/08/30/unveiling-the-microscopic-universe-of-whale-sharks/?sh=4f6d3cc142fb).
 
 Whale sharks are the largest fish in the ocean, occupying tropical and subtropical regions globally. In a recent study, the microbiome of these animals was compared across individuals from aggregation sites from the three major oceans, including the Atlantic, Pacific, and Indian Oceans. The aims were to compare microbiome patterns at a global scale to identify if the microbiome is the result of environmental factors or driven by the host animals. Our results suggest both factors are important for influencing the microbiome but from different perspectives. We found that the location from which the whale sharks were sampled was important to predicting the microbiome diversity patterns. We also showed that the complex network formed by microbial interactions within the microbiome is conserved across individuals from all locations. This conserved pattern is a major finding because it suggests that an important characteristic of the whale shark microbiome is the network architectures, and these results can be tested across other host-microbiome systems. This study also reveals 34 novel microbial genomes, which were divided, based on the presence of predicted functions of their genes, into two groups indicating at least two distinct microbiome niches in the skin microbiome of the whale sharks.
 

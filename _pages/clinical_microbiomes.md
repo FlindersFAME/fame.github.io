@@ -4,20 +4,38 @@ title: Clinical microbiomes
 permalink: /clinical-microbiomes/
 ---
 
+## Discovery of novel phages with therapuetic applications
+
+![](/assets/images/phage1.jpg)
+
+The FAME lab has developed collaborations with SA pathology, discovering new phage for Stenotrophomonas and Achromobacter strains infecting Cystic fibrosis patients. Our mission is to apply this newly discovered phage to patients across Australia, helping to alleviate the bacterial burden in their lungs and improve patient health and outcomes.
+
+![](/assets/images/giles.jpg)
+![](/assets/images/phage3.jpg)
+
+Our team includes Professor Robert Edwards, Dr Morgyn Warner, Dr, Sarah Giles, Clarice Cram, and Will Plewa. Our collection so far includes 54 bacterial strain from cystic fibrosis patients and ten newly identified phages currently being investigated for their potential in phage therapy.
+
+![](/assets/images/phage4.png)
+
+
 ## Viruses & Irritable Bowel Diseases
+
+![](/assets/images/phage5.jpg)
 
 FAME is part of a large international consortium investigating the microbiome's role in Irritable Bowel Disease (IBD);
 specifically Chron's disease (CD) and Ulcerative Colitis (UC).
 Rob Edwards and Elizabeth Dinsdale has joined forces with experts from Cambridge Hospital in the UK, and San Diego State
 University and Washington University in St. Louis in the United States.
 
+![](/assets/images/phage6.jpg)
+
 The consortium will sequence and analyse hundreds of samples from healthy and IBD case individuals. 
 FAME's role is to identify and investigate the bacteriophages associated with CD and UC, and to contribute to the 
 development of a specialised pipeline for classifying viral and phage sequences from metagenomic samples.
 
-For more information on this project please contact Rob Edwards and Elizabeth Dinsdale.
-
 ## Microbiomes of Cystic Fibrosis in South Australia
+
+![](/assets/images/cfjess.jpg)
 
 At FAME, we have established a collaborative partnership with respiratory physicians at the Women’s and Children's 
 Hospital and Royal Adelaide Hospital in South Australia generating microbial metagenomic profiles of people with 

@@ -4,14 +4,9 @@ title: Exa-scale Metagenomics
 permalink: /exa-scale-metagenomics/
 ---
 
-## Profiling Prophages  
-
-Prophages are viruses that are integrated into bacterial genomes. Annotating prophages is extremely difficult, but we have built a FAIR framework for evaluating bioinformatics tools that attempt to do just this! [Now published in F1000](https://f1000research.com/articles/10-758/v2)
-
-Next, in the most comprehensive prophage analysis to date, we analysed over two and a half million prophages from over half a million bacterial genome assemblies. Analysis of the whole dataset and a representative subset of taxonomically diverse bacterial genomes demonstrated that the normalised prophage density was uniform across all bacterial genomes above 2 Mbp. Our prophage database is informing many of our ongoing exa-scale metagenomics projects. [BioRxiv](https://doi.org/10.1101/2023.04.20.537752)
-
 ## Prophages of the Human Body
 
+![](/assets/images/microbiome.png)
 
 Bacteriophages (phages) are a ubiquitous part of all microbiomes and the human microbiome is no exception. Many spend time integrated into their host bacteria's genomes as prophages, with almost all bacteria thought to have prophages. Prophages are often harmless to us but some can, while integrated into their hosts genomes, provide genes that protect the bacteria in various ways, including providing it with toxin-production genes. In these cases prophages can be a cause of illnesses such as cholera (cholera toxin), diphtheria (diphtheria toxin) or food poisoning (shiga toxin). 
 
@@ -32,4 +27,10 @@ Currently, our understanding of the scope of viral diversity in the environment 
 This project will apply [Hecatomb](https://github.com/shandley/hecatomb), [Phables](https://github.com/Vini2/phables), [Pharokka](https://github.com/gbouras13/pharokka) and [Phynteny](https://github.com/susiegriggo/Phynteny) to analyse and annotate viral genomes. Two types of analyses will be carried out to study the variation occurring in the recovered genomes from each viral component to understand the viral community dynamics.
 
  - Graph-based analysis will be performed on identified viral components to capture different diversity metrics defining connectivity and dominance of recovered genomes.
-  - Gene-based analysis will be conducted on the resolved genomes to study the variation in genome structure and gene organisation. 
+  - Gene-based analysis will be conducted on the resolved genomes to study the variation in genome structure and gene organisation.
+
+## Profiling Prophages  
+
+Prophages are viruses that are integrated into bacterial genomes. Annotating prophages is extremely difficult, but we have built a FAIR framework for evaluating bioinformatics tools that attempt to do just this! [Now published in F1000](https://f1000research.com/articles/10-758/v2)
+
+Next, in the most comprehensive prophage analysis to date, we analysed over two and a half million prophages from over half a million bacterial genome assemblies. Analysis of the whole dataset and a representative subset of taxonomically diverse bacterial genomes demonstrated that the normalised prophage density was uniform across all bacterial genomes above 2 Mbp. Our prophage database is informing many of our ongoing exa-scale metagenomics projects. [BioRxiv](https://doi.org/10.1101/2023.04.20.537752)
