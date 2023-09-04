@@ -6,9 +6,11 @@ permalink: /clinical-microbiomes/
 
 ## Discovery of novel phages with therapuetic applications
 
+The FAME lab has developed collaborations with SA pathology, discovering new phage for Stenotrophomonas and Achromobacter strains infecting Cystic fibrosis patients.
+
 ![](/assets/images/phage1.jpg)
 
-The FAME lab has developed collaborations with SA pathology, discovering new phage for Stenotrophomonas and Achromobacter strains infecting Cystic fibrosis patients. Our mission is to apply this newly discovered phage to patients across Australia, helping to alleviate the bacterial burden in their lungs and improve patient health and outcomes.
+Our mission is to apply this newly discovered phage to patients across Australia, helping to alleviate the bacterial burden in their lungs and improve patient health and outcomes.
 
 ![](/assets/images/giles.jpg)
 ![](/assets/images/phage3.jpg)
@@ -35,11 +37,13 @@ development of a specialised pipeline for classifying viral and phage sequences 
 
 ## Microbiomes of Cystic Fibrosis in South Australia
 
-![](/assets/images/cfjess.jpg)
-
 At FAME, we have established a collaborative partnership with respiratory physicians at the Women’s and Children's 
 Hospital and Royal Adelaide Hospital in South Australia generating microbial metagenomic profiles of people with 
-Cystic Fibrosis. Our multidisciplinary team is committed to integrating microbiome research with clinical practice 
+Cystic Fibrosis.
+
+![](/assets/images/cfjess.jpg)
+
+Our multidisciplinary team is committed to integrating microbiome research with clinical practice 
 by utilising DNA sequencing and clinical data to investigate microbial communities' role in disease progression. 
 Together, we aim to contribute to developing more personalised and effective interventions to improve the lives 
 of those affected by cystic fibrosis and other respiratory-related conditions.
