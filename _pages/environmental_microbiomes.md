@@ -31,6 +31,13 @@ In partnership with the Cooperative Research Centre for Transformation in Mining
 ![](/assets/images/mining1.jpeg)
 ![](/assets/images/mining2.jpeg)
 
+## Australian Shark Viromes
+
+Viruses and bacteriophages are a crucial but mysterious component of microbiomes. They are key regulators of bacterial populations and facilitate the exchange of genetic material, but despite their importance the vast majority of viruses in the ocean are undescribed. We’ve discovered thousands of different viruses living on shark skin—many groups unique and many shared among individuals and between different shark species. In the process of collecting shark microbiomes, we came across a handful of sharks with injured skin. Sharks heal quickly from skin injuries, but the mechanisms that allow them to fight infections while they heal is not fully understood. Our research so far indicates abnormally high amounts of viruses on injured skin compared to healthy skin on the same shark, which suggests viruses and phages may play a role in shark skin wound healing.
+
+![](/assets/images/shark2.jpg)
+![](/assets/images/shark3.jpg)
+
 ## Sawfish (Pristis pristis) microbiomes from the Northern Territory
 
 In collaboration with researchers from Charles Darwin University, we are characterising the microbiome of the critically endangered Large-toothed sawfish. This species occurs along coastal regions of tropical and sub-tropical habitats around the world and can enter freshwater environments for long periods of time. As this species is critically endangered globally, it’s imperative to better understand its biology, including the microbiome. The primary aim of this project is to examine the microbiome of sawfish caught in freshwater pools to compare microbiome patterns from the skin surface to the surrounding water column. We will also examine whether the microbiome is species-specific or is best predicted by the pool which the animal was sampled from.
