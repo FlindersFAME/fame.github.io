@@ -3,7 +3,9 @@ layout: splash
 author_profile: true
 ---
 
+<br>
 <h1 style="text-align:center;">Research Themes</h1>
+<br>
 
 <table style="margin-left: auto; margin-right: auto;">
     <tr>
