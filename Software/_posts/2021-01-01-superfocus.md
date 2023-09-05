@@ -3,6 +3,7 @@ layout: single
 tags: Metagenome 
 title: SUPER-FOCUS
 logo: /assets/images/superfocus_logo_small.png
+author: Rob Edwards
 ---
 
 ![](/assets/images/superfocus_logo_small.png)
