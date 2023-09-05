@@ -46,11 +46,14 @@ to Coral Health and Ecosystem Functioning Shaped at Reef Scale
 ### What the protein!? Computational methods for predicting microbial protein functions
 <small>Susanna Grigson, Robert Edwards (2023), [OSF Preprints](Grigson_WhatTheProtein.pdf)</small>
 
-## The Promise and Pitfalls of Prophages
+### The Promise and Pitfalls of Prophages
 <small> Jody C. McKerral, Bhavya Papudeshi, Laura K. Inglis, Michael J. Roach, Przemyslaw Decewicz, Katelyn McNair, Antoni Luque, Elizabeth A. Dinsdale, Robert A. Edwards, (2023), [BioRxiv](https://doi.org/10.1101/2023.04.20.537752)</small>
 
-## Phables: from fragmented assemblies to high-quality bacteriophage genomes
+### Phables: from fragmented assemblies to high-quality bacteriophage genomes
 <small>Vijini Mallawaarachchi, Michael J. Roach, Bhavya Papudeshi, Sarah K. Giles, Susanna R. Grigson, Przemyslaw Decewicz, George Bouras, Ryan D. Hesse, Laura K. Inglis, Abbey L. K. Hutton, Elizabeth A. Dinsdale, Robert A. Edwards, (2023), [BioRxiv](https://doi.org/10.1101/2023.04.04.535632)</small>
+
+### Host interactions of novel Crassvirales species belonging to multiple families infecting bacterial host, Bacteroides cellulosilyticus WH2
+<small>Bhavya Papudeshi, Alejandro A. Vega, Cole Souza, Sarah K. Giles, Vijini Mallawaarachchi, Michael J. Roach, Michelle An, Nicole Jacobson, Katelyn McNair, Maria Fernanda Mora, Karina Pastrana, Lance Boling, Christopher Leigh, Clarice Harker, Will S. Plewa, Susanna R. Grigson, George Bouras, Przemysław Decewicz, Antoni Luque, Lindsay Droit, Scott A. Handley, David Wang, Anca M. Segall, Elizabeth A. Dinsdale, Robert A. Edwards (2023), [Microbial Genomics](https://doi.org/10.1099/mgen.0.001100)</small>
 
 ## 2022
 
