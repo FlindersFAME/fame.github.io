@@ -917,7 +917,7 @@ Robert Constantine:
 
 George Bouras:
   name: "George Bouras"
-  bio: "Visiting Scholars"
+  bio: "Visiting Scholar"
   avatar: "/assets/images/george.png"
   links:
     - label: "Email"
@@ -947,3 +947,12 @@ George Bouras:
 #    - label: "LinkedID"
 #      icon: "fab fa-fw fa-linkedin"
 #      url: " "
+
+Tina Hauptfeld:
+  name        : "Tina Hauptfeld"
+  bio         : "Visiting Scholar"
+  avatar      : "/assets/images/tina.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:tina.hauptfeld@gmail.com"
