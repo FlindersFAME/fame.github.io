@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: splash
 permalink: /people/
 title: FAME-ous people
 author_profile: true
@@ -10,6 +10,9 @@ ptags:
   - Alumni
 ---
 
+# FAME-ous People!
+
+![](/assets/images/peeps.jpg)
 
 {% for ptag in page.ptags %}
 ## {{ ptag }}
@@ -21,7 +24,6 @@ ptags:
 </div>
 <a href="{{ post.url }}">{{ post.title }}</a><br>
 {{ post.excerpt }}
-<br>
 <br>
     {% endif %}
   {% endfor %}
