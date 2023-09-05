@@ -8,6 +8,7 @@ ptags:
   - Researchers
   - Students
   - Alumni
+  - Visiting Scholars
 ---
 
 
