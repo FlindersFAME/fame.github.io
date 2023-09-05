@@ -761,3 +761,12 @@ Clarice Harker:
 #    - label: "LinkedID"
 #      icon: "fab fa-fw fa-linkedin"
 #      url: " https://www.linkedin.com/in/will-plewa-8a5725172"
+
+Tessa Herewane:
+  name        : "Tessa Herewane"
+  bio         : "Undergraduate student"
+  avatar      : "/assets/images/tess.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:here0013@flinders.edu.au"
