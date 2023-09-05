@@ -58,6 +58,9 @@ to Coral Health and Ecosystem Functioning Shaped at Reef Scale
 ### Emergent community architecture despite distinct diversity in the global whale shark (Rhincodon typus) epidermal microbiome
 <small>Doane, MP, M. Reed, J. McKerral, L.F. O. Lima, B. Papudeshi, M.M. Morris, A.Z. Goodman, S. Johri, T. Dillon, A. Turnlund, M. Peterson, M. Mora, R. de la Parra Venegas, R. Pillans, C. Rohner, S. Pierce, C. Legaspi, G. Araujo, D. Ramirez-Macias, R.A. Edwards, E.A. Dinsdale, (2023) [Scientific Reports](https://doi.org/10.1038/s41598-023-39184-5)</small>
 
+### Prophage rates in the human microbiome vary by body site and host health
+<small>Laura K Inglis, Michael J Roach, Robert A Edwards, (2023), [bioRxiv](https://doi.org/10.1101/2023.05.04.539508)</small>
+
 ## 2022
 
 ### Epidermal Microbiomes of Leopard Sharks (Triakis semifasciata) Are Consistent across Captive and Wild Environments
@@ -164,6 +167,8 @@ to Coral Health and Ecosystem Functioning Shaped at Reef Scale
 <small>Jody C McKerral, Justin R Seymour, Trish J Lavery, Paul J Rogers, Thomas C Jeffries, James S Paterson, Ben Roudnew, Charlie Huveneers, Kelly Newton, Virginie van Dongen-Vogels, Nardi P Cribb, Karina M Winn, Renee J Smith, Crystal L Beckmann, Eloise Prime, Claire M Charlton, Maria Kleshnina, Susanna R Grigson, Marika Takeuchi, Laurent Seuront, James G Mitchell (2021), 
 [bioRxiv](https://doi.org/10.1101/2021.10.04.459351)</small>
 
+### Adaptive evolution of sulfite tolerance in _Brettanomyces bruxellensis_
+<small>Caroline Bartel, Michael Roach, Cristobal Onetto, Chris Curtin, Cristian Varela, Anthony Borneman, (2021), [FEMS Yeast Research](https://doi.org/10.1093/femsyr/foab036)</small>
 
 ## 2020
 
