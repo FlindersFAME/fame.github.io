@@ -873,9 +873,9 @@ Tessa Herewane:
 
 Cong Pham:
   name: "Cong Pham"
-    bio: "Honours student"
-    avatar: "/assets/images/cong.png"
-    links:
+  bio: "Honours student"
+  avatar: "/assets/images/cong.png"
+  links:
       -   label: "Email"
           icon: "fas fa-fw fa-envelope-square"
           url: "mailto:pham0323@flinders.edu.au"
@@ -903,4 +903,3 @@ Cong Pham:
       - label: "LinkedID"
         icon: "fab fa-fw fa-linkedin"
         url: " https://www.linkedin.com/in/cong-pham-76b958244/"
-
