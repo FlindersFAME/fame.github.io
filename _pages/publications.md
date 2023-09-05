@@ -9,8 +9,7 @@ Check out these amazing publications from our FAME-ous researchers!
 
 ## 2023
 
-### Coral and Seawater Metagenomes Reveal Key Microbial Functions
-to Coral Health and Ecosystem Functioning Shaped at Reef Scale
+### Coral and Seawater Metagenomes Reveal Key Microbial Functions to Coral Health and Ecosystem Functioning Shaped at Reef Scale
 <small>Laís FO Lima, Amanda T Alker, Bhavya Papudeshi, Megan M Morris, Robert A Edwards, Samantha J De Putron, Elizabeth A Dinsdale (2023), [Environmental microbiology](https://doi.org/10.1007/s00248-022-02094-6)</small>
 
 ### Host Association and Spatial Proximity Shape but Do Not Constrain Population Structure in the Mutualistic Symbiont Xenorhabdus bovienii
@@ -101,7 +100,7 @@ to Coral Health and Ecosystem Functioning Shaped at Reef Scale
 ## 2022
 
 ### Epidermal Microbiomes of Leopard Sharks (Triakis semifasciata) Are Consistent across Captive and Wild Environments
-<small>udeshi, B.; Doane, M.P.; Mora, M.; Kerr, E.; Torres, M.; Nero Moffatt, J.; Lima, L.; Nosal, A.P.; Dinsdale, E, (2022), [Microorganisms](https://doi.org/10.3390/microorganisms10102081)</small>
+<small>Asha Z Goodman, Bhavya Papudeshi, Michael P Doane, Maria Mora, Emma Kerr, Melissa Torres, Jennifer Nero Moffatt, Lais Lima, Andrew P Nosal, Elizabeth Dinsdale, (2022), [Microorganisms](https://doi.org/10.3390/microorganisms10102081)</small>
 
 ### Win some, lose some: the ecophysiology of Porites astreoides as a key coral species to Caribbean reefs
 <small>Lima, LFO, H. Bursch and E. A. Dinsdale, (2022), [Frontiers in Marine Biology](https://doi.org/10.3389/fmars.2022.908734)</small>
