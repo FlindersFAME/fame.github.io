@@ -55,7 +55,19 @@ to Coral Health and Ecosystem Functioning Shaped at Reef Scale
 ### Host interactions of novel Crassvirales species belonging to multiple families infecting bacterial host, Bacteroides cellulosilyticus WH2
 <small>Bhavya Papudeshi, Alejandro A. Vega, Cole Souza, Sarah K. Giles, Vijini Mallawaarachchi, Michael J. Roach, Michelle An, Nicole Jacobson, Katelyn McNair, Maria Fernanda Mora, Karina Pastrana, Lance Boling, Christopher Leigh, Clarice Harker, Will S. Plewa, Susanna R. Grigson, George Bouras, Przemysław Decewicz, Antoni Luque, Lindsay Droit, Scott A. Handley, David Wang, Anca M. Segall, Elizabeth A. Dinsdale, Robert A. Edwards (2023), [Microbial Genomics](https://doi.org/10.1099/mgen.0.001100)</small>
 
+### Emergent community architecture despite distinct diversity in the global whale shark (Rhincodon typus) epidermal microbiome
+<small>Doane, MP, M. Reed, J. McKerral, L.F. O. Lima, B. Papudeshi, M.M. Morris, A.Z. Goodman, S. Johri, T. Dillon, A. Turnlund, M. Peterson, M. Mora, R. de la Parra Venegas, R. Pillans, C. Rohner, S. Pierce, C. Legaspi, G. Araujo, D. Ramirez-Macias, R.A. Edwards, E.A. Dinsdale, (2023) [Scientific Reports](https://doi.org/10.1038/s41598-023-39184-5)</small>
+
 ## 2022
+
+### Epidermal Microbiomes of Leopard Sharks (Triakis semifasciata) Are Consistent across Captive and Wild Environments
+<small>udeshi, B.; Doane, M.P.; Mora, M.; Kerr, E.; Torres, M.; Nero Moffatt, J.; Lima, L.; Nosal, A.P.; Dinsdale, E, (2022), [Microorganisms](https://doi.org/10.3390/microorganisms10102081)</small>
+
+### Win some, lose some: the ecophysiology of Porites astreoides as a key coral species to Caribbean reefs
+<small>Lima, LFO, H. Bursch and E. A. Dinsdale, (2022), [Frontiers in Marine Biology](https://doi.org/10.3389/fmars.2022.908734)</small>
+
+### Making change sustainable: Network for Integrating Bioinformatics into Life Sciences Education (NIBLSE) meeting review
+<small>Toby, I, Williams J, Lu G, Cai C, Crandall KA, Dinsdale EA, Drew J, Edgington NP, Goller CC, Grandgenett NF, Grant BJ, Hauser C, Johnson KA, Jones CJ, Jue NK, Jungck FR, Kerby J, Kleinschmit AJ, Miller KG, Morgan WR, Murdoch B, Noutsios G, Nunez-Castilla J, Pauley M, Pearson WR, Robertson SD, Robic S, Rosenwald A, Seah YM, Shofner M, Sierk M, Siltberg-Liberles J, Smith T, Stover NA, Tapprich W, Triplett EW, Ryder EF. (2022), [CourseSource](https://doi.org/10.24918/cs.2022.10)</small>
 
 ### Ten simple rules and a template for creating workflows-as-applications
 <small>Michael J Roach, N Tessa Pierce-Ward, Radoslaw Suchecki, Vijini Mallawaarachchi, Bhavya Papudeshi, Scott A Handley, C Titus Brown, Nathan S Watson-Haigh, Robert A Edwards (2022), [Plos Comp. Biol.](https://doi.org/10.1371/journal.pcbi.1010705)</small>
