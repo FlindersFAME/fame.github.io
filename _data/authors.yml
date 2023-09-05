@@ -804,3 +804,13 @@ Cong Pham:
     - label: "LinkedID"
       icon: "fab fa-fw fa-linkedin"
       url: " https://www.linkedin.com/in/cong-pham-76b958244/"
+
+
+Robert Constantine:
+  name        : "Robert Constantine"
+  bio         : "Honours Student"
+  avatar      : "/assets/images/robc.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:cons0076@flinders.edu.au"
