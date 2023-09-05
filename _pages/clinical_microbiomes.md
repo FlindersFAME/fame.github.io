@@ -4,36 +4,13 @@ title: Clinical microbiomes
 permalink: /clinical-microbiomes/
 ---
 
-## Discovery of novel phages with therapuetic applications
+## Discovery of novel phages with therapeutic applications
 
-The FAME lab has developed collaborations with SA pathology, discovering new phage for Stenotrophomonas and Achromobacter strains infecting Cystic fibrosis patients.
+The FAME lab has developed collaborations with SA pathology, discovering new phage for *Stenotrophomonas* and *Achromobacter* strains infecting people with Cystic Fibrosis (CF). Our mission is to apply this newly discovered phage to patients across Australia, helping to alleviate the bacterial burden in their lungs and improve patient health and outcomes.
+
+Our team includes Professor Robert Edwards, Dr Morgyn Warner, Dr, Sarah Giles, Clarice Harker, and Will Plewa. Our collection so far includes 54 bacterial strains from people with CF and ten newly identified phages currently being investigated for their potential in phage therapy.
 
 ![](/assets/images/phage1.jpg)
-
-Our mission is to apply this newly discovered phage to patients across Australia, helping to alleviate the bacterial burden in their lungs and improve patient health and outcomes.
-
-![](/assets/images/giles.jpg)
-![](/assets/images/phage3.jpg)
-
-Our team includes Professor Robert Edwards, Dr Morgyn Warner, Dr, Sarah Giles, Clarice Cram, and Will Plewa. Our collection so far includes 54 bacterial strain from cystic fibrosis patients and ten newly identified phages currently being investigated for their potential in phage therapy.
-
-![](/assets/images/phage4.png)
-
-
-## Viruses & Irritable Bowel Diseases
-
-![](/assets/images/phage5.jpg)
-
-FAME is part of a large international consortium investigating the microbiome's role in Irritable Bowel Disease (IBD);
-specifically Chron's disease (CD) and Ulcerative Colitis (UC).
-Rob Edwards and Elizabeth Dinsdale has joined forces with experts from Cambridge Hospital in the UK, and San Diego State
-University and Washington University in St. Louis in the United States.
-
-![](/assets/images/phage6.jpg)
-
-The consortium will sequence and analyse hundreds of samples from healthy and IBD case individuals. 
-FAME's role is to identify and investigate the bacteriophages associated with CD and UC, and to contribute to the 
-development of a specialised pipeline for classifying viral and phage sequences from metagenomic samples.
 
 ## Microbiomes of Cystic Fibrosis in South Australia
 
@@ -50,5 +27,20 @@ of those affected by cystic fibrosis and other respiratory-related conditions.
 
 ![](/assets/images/CF-projects.jpg)
 
-From Left to Right: Dr Jude Morton (RAH), Associate Professor Jon Koff (Yale School of Medicine), Dr Jessica 
-Carlson-Jones (Flinders) and Dr Tom Goddard (WCH and FMC).
+From Left to Right: Dr Jude Morton (RAH), Associate Professor Jon Koff (Yale School of Medicine), Dr Jessica  Carlson-Jones (Flinders) and Dr Tom Goddard (WCH and FMC).
+
+
+## Viruses & Inflammatory Bowel Disease
+
+FAME is part of a large international consortium with Addenbrookes Hospital, Cambridge, UK, San Diego State University, California, USA, and Washington University, St. Louis, USA. NIH NIDDK RC2DK116713 funds this project. 
+
+This consortium aims to investigate the microbiome’s role in Inflammatory Bowel Disease (IBD), specifically Crohn’s Disease (CD) and Ulcerative Colitis (UC). The consortium has sequenced and analysed hundreds of samples from healthy and IBD case individuals. FAME's role is to identify and investigate the bacteriophages associated with CD and UC, and to contribute to the development of a specialised pipeline for classifying viral and phage sequences from metagenomic samples.
+
+![](/assets/images/giles.jpg)
+![](/assets/images/phage3.jpg)
+
+## Bacteroides phages
+
+Bacteroides are the most common bacteria in the human gut, and they degrade many complex polysaccharides. The abundance of Bacteroides in the gut is shaped by the phages that infect and kill them. In response, bacteria alter their cell wall composition to limit phage infectivity. We have isolated and sequenced three Bacteroides isolates and 30 phages that infect them. The bacterial genomes reflect the availability of sugars in the human gut. Bacteriophages demonstrate different approaches to overcoming bacterial defences. 
+
+![](/assets/images/phage4.png)
