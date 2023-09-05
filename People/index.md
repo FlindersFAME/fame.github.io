@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: splash
 permalink: /people/
 title: FAME-ous people
 author_profile: true
@@ -9,6 +9,8 @@ ptags:
   - Students
   - Alumni
 ---
+
+# FAME-ous People!
 
 ![](/assets/images/peeps.jpg)
 
