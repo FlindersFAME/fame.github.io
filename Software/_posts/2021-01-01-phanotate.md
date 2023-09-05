@@ -2,6 +2,7 @@
 layout: single
 tag: Phage
 title: PHANOTATE
+author: Rob Edwards
 ---
 
 PHANOTATE is a tool to annotate phage genomes.<!--more--> It uses the assumption that non-coding bases in a phage genome 
