@@ -110,7 +110,7 @@ Michael Doane:
 Sarah Giles:
   name        : "Sarah Giles"
   bio         : "Research Associate"
-  avatar      : "/assets/images/giles.jpg"
+  avatar      : "/assets/images/gilesprofile.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -732,7 +732,7 @@ Will Plewa:
 Clarice Harker:
   name        : "Clarice Harker"
   bio         : "Honours student"
-  avatar      : "/assets/images/Clarice.jpg"
+  avatar      : "/assets/images/Clarice.jpeg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
