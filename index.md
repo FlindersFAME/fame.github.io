@@ -3,7 +3,7 @@ layout: splash
 author_profile: true
 ---
 
-<h1 style="text-align:center;">Research themes at FAME</h1>
+<h1 style="text-align:center;">Research Themes</h1>
 
 <table style="margin-left: auto; margin-right: auto;">
     <tr>

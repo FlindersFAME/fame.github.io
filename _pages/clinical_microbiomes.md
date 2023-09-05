@@ -44,3 +44,6 @@ This consortium aims to investigate the microbiome’s role in Inflammatory Bowe
 Bacteroides are the most common bacteria in the human gut, and they degrade many complex polysaccharides. The abundance of Bacteroides in the gut is shaped by the phages that infect and kill them. In response, bacteria alter their cell wall composition to limit phage infectivity. We have isolated and sequenced three Bacteroides isolates and 30 phages that infect them. The bacterial genomes reflect the availability of sugars in the human gut. Bacteriophages demonstrate different approaches to overcoming bacterial defences. 
 
 ![](/assets/images/phage4.png)
+
+
+
