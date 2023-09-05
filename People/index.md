@@ -7,8 +7,8 @@ ptags:
   - Group Leaders
   - Researchers
   - Students
-  - Alumni
   - Visiting Scholars
+  - Alumni
 ---
 
 # FAME-ous People!
