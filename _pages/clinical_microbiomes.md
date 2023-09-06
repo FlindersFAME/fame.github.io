@@ -15,7 +15,7 @@ Our mission is to apply this newly discovered phage to patients across Australia
 ![](/assets/images/giles.jpg)
 ![](/assets/images/phage3.jpg)
 
-Our team includes Professor Robert Edwards, Dr Morgyn Warner, Dr, Sarah Giles, Clarice Cram, and Will Plewa. Our collection so far includes 54 bacterial strain from cystic fibrosis patients and ten newly identified phages currently being investigated for their potential in phage therapy.
+Our team includes Professor Robert Edwards, Dr Morgyn Warner, Dr, Sarah Giles, Clarice Harker, and Will Plewa. Our collection so far includes 54 bacterial strain from cystic fibrosis patients and ten newly identified phages currently being investigated for their potential in phage therapy.
 
 ![](/assets/images/phage4.png)
 
