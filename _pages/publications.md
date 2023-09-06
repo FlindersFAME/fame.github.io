@@ -184,7 +184,7 @@ Check out these amazing publications from our FAME-ous researchers!
 <small>Joel E Brame, Craig Liddicoat, Catherine A Abbott, Robert A Edwards, Jake M Robinson, Nicolas E Gauthier, Martin F Breed, [bioRxiv](https://doi.org/10.1101/2022.10.07.510278)
 </small>
 
-## Estimating Classification Confidence Using Kernel Densities
+### Estimating Classification Confidence Using Kernel Densities
 <small>Peter Salamon, David Salamon, V Adrian Cantu, Michelle An, Tyler Perry, Robert A Edwards, Anca M Segall, [arXiv](
 https://doi.org/10.48550/arXiv.2207.06529)
 </small>
