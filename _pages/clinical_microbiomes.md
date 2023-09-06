@@ -24,16 +24,19 @@ Our team includes Professor Robert Edwards, Dr Morgyn Warner, Dr, Sarah Giles, C
 
 ![](/assets/images/phage5.jpg)
 
-FAME is part of a large international consortium investigating the microbiome's role in Irritable Bowel Disease (IBD);
-specifically Chron's disease (CD) and Ulcerative Colitis (UC).
-Rob Edwards and Elizabeth Dinsdale has joined forces with experts from Cambridge Hospital in the UK, and San Diego State
-University and Washington University in St. Louis in the United States.
+FAME is part of a large international consortium investigating the microbiome's role in Irritable Bowel Disease (IBD); specifically Chron's disease (CD) and Ulcerative Colitis (UC). In this NIH-funded project, Rob Edwards and Elizabeth Dinsdale has joined forces with experts from Cambridge Hospital in the UK, and San Diego State University and Washington University in St. Louis in the United States.
 
 ![](/assets/images/phage6.jpg)
 
-The consortium will sequence and analyse hundreds of samples from healthy and IBD case individuals. 
-FAME's role is to identify and investigate the bacteriophages associated with CD and UC, and to contribute to the 
-development of a specialised pipeline for classifying viral and phage sequences from metagenomic samples.
+The consortium will sequence and analyse hundreds of samples from healthy and IBD case individuals.  FAME's role is to identify and investigate the bacteriophages associated with CD and UC, and to contribute to the  development of a specialised pipeline for classifying viral and phage sequences from metagenomic samples.
+
+## Making Metagenomics Measurable
+
+This project aims to revolutionize our view of the microbial world once more by transforming microbiome studies from relative counts of organisms to actual numbers of microbes. This project expects to impact all the microbiome studies that are being performed worldwide by unveiling the actual numbers of microbes. Expected outcomes of this project include new techniques to enumerate the number of bacteria in different environments and new approaches to measure gene expression within individual bacteria in any environment that will be demonstrated with complex microbial communities. This should provide significant benefits because microbes affect every aspect of our lives and those effects are driven by how many microbes are present.
+
+![](/assets/images/dp1.png)
+![](/assets/images/dp2.png)
+![](/assets/images/dp3.png)
 
 ## Microbiomes of Cystic Fibrosis in South Australia
 
