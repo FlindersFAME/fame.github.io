@@ -5,6 +5,8 @@ author: Jessica Carlson-Jones
 title: Meeting the respiratory physicians of Alice Springs
 excerpt: In September of 2022, Professor Rob Edwards and Dr. Jess Carlson-Jones visited Alice Springs Hospital to meet with respiratory physicians.
 expires: 2050-01-01
+header:
+    teaser: /assets/images/alice2.png
 ---
 
 In September of 2022, Professor Rob Edwards and Dr. Jess Carlson-Jones visited Alice Springs Hospital to meet with respiratory physicians. 

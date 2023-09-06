@@ -5,6 +5,8 @@ author: Bhavya Papudeshi
 title: Get Started in Bioinformatics workshop
 excerpt: FAME and COMBINE joint workshop
 expires: 2050-01-01
+header:
+    teaser: /assets/images/COMBINE-workshop.jpg
 ---
 
 Adelaide has a growing bioinformatics community, and many wet-lab biologists are keen to join. However, getting started can often be overwhelming for people with a non-bioinformatics and non-computer science background. This workshop aims to help people interested in bioinformatics get comfortable with basic concepts, connect to high-performance computing for the first time, learn basic Linux commands and install their first bioinformatics package. 

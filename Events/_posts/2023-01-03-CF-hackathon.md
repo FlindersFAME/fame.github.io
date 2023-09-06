@@ -5,6 +5,8 @@ author: Jessica Carlson-Jones
 title: Cystic Fibrosis Hackathon 2023
 excerpt: Analysing microbiome data from South Australian CF metagenomes
 expires: 2050-01-01
+header:
+    teaser: /assets/images/CF-Hackathon.jpg
 ---
 
 ![](/assets/images/CF-Hackathon.jpg)
