@@ -12,6 +12,14 @@ Our team includes Professor Robert Edwards, Dr Morgyn Warner, Dr, Sarah Giles, C
 
 ![](/assets/images/phage1.jpg)
 
+## Making Metagenomics Measurable
+
+This project aims to revolutionize our view of the microbial world once more by transforming microbiome studies from relative counts of organisms to actual numbers of microbes. This project expects to impact all the microbiome studies that are being performed worldwide by unveiling the actual numbers of microbes. Expected outcomes of this project include new techniques to enumerate the number of bacteria in different environments and new approaches to measure gene expression within individual bacteria in any environment that will be demonstrated with complex microbial communities. This should provide significant benefits because microbes affect every aspect of our lives and those effects are driven by how many microbes are present.
+
+![](/assets/images/dp1.png)
+
+![](/assets/images/dp3.png)
+
 ## Microbiomes of Cystic Fibrosis in South Australia
 
 At FAME, we have established a collaborative partnership with respiratory physicians at the Women’s and Children's 
@@ -28,7 +36,6 @@ of those affected by cystic fibrosis and other respiratory-related conditions.
 ![](/assets/images/CF-projects.jpg)
 
 From Left to Right: Dr Jude Morton (RAH), Associate Professor Jon Koff (Yale School of Medicine), Dr Jessica  Carlson-Jones (Flinders) and Dr Tom Goddard (WCH and FMC).
-
 
 ## Viruses & Inflammatory Bowel Disease
 
