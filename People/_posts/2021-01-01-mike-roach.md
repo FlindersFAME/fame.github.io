@@ -2,7 +2,7 @@
 layout: archive
 title: Michael Roach
 author: Michael Roach
-tag: Researchers
+tag: Alumni
 excerpt: "Research Fellow in Bioinformatics in the Edwards lab and FAME webmaster\n"
 ---
 

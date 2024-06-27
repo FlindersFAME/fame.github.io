@@ -2,7 +2,7 @@
 layout: archive
 title: Sarah Giles
 author: Sarah Giles
-tag: Researchers
+tag: Alumni
 excerpt: "Research Associate in the Edwards lab\n"
 ---
 
