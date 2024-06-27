@@ -9,6 +9,9 @@ Check out these amazing publications from our FAME-ous researchers!
 
 ## 2024
 
+### ICP – could there be a virus in the works?
+<small>Sarah K Giles, William M Hague, Robert A Edwards (2024), [Obstetric Medicine](https://doi.org/10.1177/1753495X241258385)</small>
+
 ### Hybracter: enabling scalable, automated, complete and accurate bacterial genome assemblies
 <small>George Bouras, Ghais Houtak, Ryan R Wick, Vijini Mallawaarachchi, Michael J Roach, Bhavya Papudeshi, Louise M Judd, Anna E Sheppard, Robert A Edwards, Sarah Vreugde (2024), [Microbial Genomics](https://doi.org/10.1099/mgen.0.001244)</small>
 
