@@ -499,7 +499,7 @@ Nick Falk:
 
 Haylee Smith:
   name        : "Haylee Smith"
-  bio         : "Honours student"
+  bio         : "Honours Student"
   avatar      : "/assets/images/smith.jpg"
   links:
     - label: "Email"
@@ -566,7 +566,7 @@ Jessica Carlson-Jones:
 
 Kiarna Taylor:
   name        : "Kiarna Taylor"
-  bio         : "Honours student"
+  bio         : "Honours Student"
   avatar      : "/assets/images/kiarna.png"
   links:
     - label: "Email"
@@ -599,7 +599,7 @@ Kiarna Taylor:
 
 # Anal Kanti Roy:
 #   name        : "Anal Kanti Roy"
-#   bio         : "PhD student"
+#   bio         : "PhD Student"
 #   avatar      : "/assets/images/Roy.jpg"
 #   links:
 #     - label: "Email"
@@ -617,7 +617,7 @@ Kiarna Taylor:
 
 Anita Tarasenko:
   name        : "Anita Tarasenko"
-  bio         : "PhD student"
+  bio         : "PhD Student"
   avatar      : "/assets/images/Anita.jpg"
   links:
     - label: "Email"
@@ -650,7 +650,7 @@ Anita Tarasenko:
 
 Sein Hwang:
   name        : "Sein Hwang"
-  bio         : "Honours student"
+  bio         : "Honours Student"
   avatar      : "/assets/images/sein.jpg"
   links:
     - label: "Email"
@@ -683,7 +683,7 @@ Sein Hwang:
 
 Will Plewa:
   name        : "Will Plewa"
-  bio         : "Undergraduate student"
+  bio         : "Undergraduate Student"
   avatar      : "/assets/images/Will-Plewa.jpg"
   links:
     - label: "Email"
@@ -716,7 +716,7 @@ Will Plewa:
 
 Clarice Harker:
   name        : "Clarice Harker"
-  bio         : "Honours student"
+  bio         : "Honours Student"
   avatar      : "/assets/images/Clarice.jpeg"
   links:
     - label: "Email"
@@ -749,7 +749,7 @@ Clarice Harker:
 
 Abbey Hutton:
   name        : "Abbey Hutton"
-  bio         : "PhD student"
+  bio         : "PhD Student"
   avatar      : "/assets/images/Abbey.jpeg"
   links:
     - label: "Email"
@@ -848,7 +848,7 @@ Julie Pederson:
 
 Tessa Herewane:
   name        : "Tessa Herewane"
-  bio         : "Undergraduate student"
+  bio         : "Undergraduate Student"
   avatar      : "/assets/images/tess.jpg"
   links:
     - label: "Email"
@@ -858,7 +858,7 @@ Tessa Herewane:
 
 Cong Pham:
   name: "Cong Pham"
-  bio: "Honours student"
+  bio: "Honours Student"
   avatar: "/assets/images/cong.png"
   links:
       - label: "Email"

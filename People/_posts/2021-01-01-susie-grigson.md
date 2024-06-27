@@ -3,7 +3,7 @@ layout: archive
 title: Susie Grigson
 author: Susie Grigson
 tag: Students
-excerpt: "PhD Student in the Edwards lab\n"
+excerpt: "PhD student in the Edwards lab\n"
 ---
 
 Susie Grigson is a PhD student in the Edwards lab. 
