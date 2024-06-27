@@ -956,3 +956,15 @@ Tina Hauptfeld:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:tina.hauptfeld@gmail.com"
+
+Jasmine Ascensio:
+  name        : "Jasmine Ascensio"
+  bio         : "Undergraduate Student"
+  avatar      : "/assets/images/Jasmine.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:somm0035@flinders.edu.au"
+    - label: "LinkedID"
+      icon: "fab fa-fw fa-linkedin"
+      url: " https://www.linkedin.com/in/jasmine-ascensio-31a6ba236/"
