@@ -158,7 +158,7 @@ Jody McKerral:
 
 Vijini Mallawaarachchi:
   name        : "Vijini Mallawaarachchi"
-  bio         : "Research Associate"
+  bio         : "Research Associate in Bioinformatics"
   avatar      : "/assets/images/vijini.jpg"
   links:
     - label: "Email"
@@ -617,7 +617,7 @@ Kiarna Taylor:
 
 Anita Tarasenko:
   name        : "Anita Tarasenko"
-  bio         : "Honours student"
+  bio         : "PhD student"
   avatar      : "/assets/images/Anita.jpg"
   links:
     - label: "Email"
