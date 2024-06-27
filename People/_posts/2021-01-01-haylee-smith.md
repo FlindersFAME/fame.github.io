@@ -2,7 +2,7 @@
 layout: archive
 title: Haylee Smith
 author: Haylee Smith
-tag: Students
+tag: Alumni
 excerpt: "Honours student in the Dinsdale lab\n"
 ---
 
