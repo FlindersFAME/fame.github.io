@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Boosting Bioinformatics Skills: Python Workshop Recap
+title: "Boosting Bioinformatics Skills: Python Workshop Recap"
 author: Bhavya Papudeshi
 excerpt: We recently hosted a one-day Python workshop to equip participants with foundational programming knowledge to support their research endeavors.
 expires: 2050-01-01
