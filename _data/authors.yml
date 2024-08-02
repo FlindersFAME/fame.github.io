@@ -158,7 +158,7 @@ Jody McKerral:
 
 Vijini Mallawaarachchi:
   name        : "Vijini Mallawaarachchi"
-  bio         : "Research Associate"
+  bio         : "Research Associate in Bioinformatics"
   avatar      : "/assets/images/vijini.jpg"
   links:
     - label: "Email"
@@ -499,7 +499,7 @@ Nick Falk:
 
 Haylee Smith:
   name        : "Haylee Smith"
-  bio         : "Honours student"
+  bio         : "Honours Student"
   avatar      : "/assets/images/smith.jpg"
   links:
     - label: "Email"
@@ -566,7 +566,7 @@ Jessica Carlson-Jones:
 
 Kiarna Taylor:
   name        : "Kiarna Taylor"
-  bio         : "Honours student"
+  bio         : "Honours Student"
   avatar      : "/assets/images/kiarna.png"
   links:
     - label: "Email"
@@ -597,42 +597,27 @@ Kiarna Taylor:
 #      icon: "fab fa-fw fa-bitbucket"
 #      url: ""
 
-Anal Kanti Roy:
-  name        : "Anal Kanti Roy"
-  bio         : "PhD student"
-  avatar      : "/assets/images/Roy.jpg"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:roy0079@flinders.edu.au"
-#    - label: "Website"
-#      icon: "fas fa-fw fa-flask"
-#      url: "https://akroy.com.au/"
-#    - label: "Google Scholar"
-#      icon: "fab fa-fw fa-google"
-#      url: "https://scholar.google.com/citations?user=e7fvl1kAAAAJ"
-    - label: "ORCID"
-      icon: "fab fa-fw fa-orcid"
-      url: "https://orcid.org/0000-0002-5534-3444"
-#    - label: "Flinders"
-#      icon: "far fa-fw fa-id-badge"
-#      url: "https://www.flinders.edu.au/people/robert.edwards"
-#    - label: "Twitter"
-#      icon: "fab fa-fw fa-twitter-square"
-#      url: "https://twitter.com/linsalrob"
-#    - label: "Youtube"
-#      icon: "fab fa-fw fa-youtube"
-#      url: "https://www.youtube.com/channel/UC6Aa5t0vHN8uj_BCbgrRZcQ"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/roybio"
-    - label: "LinkedID"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/a-k-roy/"
+# Anal Kanti Roy:
+#   name        : "Anal Kanti Roy"
+#   bio         : "PhD Student"
+#   avatar      : "/assets/images/Roy.jpg"
+#   links:
+#     - label: "Email"
+#       icon: "fas fa-fw fa-envelope-square"
+#       url: "mailto:roy0079@flinders.edu.au"
+#     - label: "ORCID"
+#       icon: "fab fa-fw fa-orcid"
+#       url: "https://orcid.org/0000-0002-5534-3444"
+#     - label: "GitHub"
+#       icon: "fab fa-fw fa-github"
+#       url: "https://github.com/roybio"
+#     - label: "LinkedID"
+#       icon: "fab fa-fw fa-linkedin"
+#       url: "https://www.linkedin.com/in/a-k-roy/"
 
 Anita Tarasenko:
   name        : "Anita Tarasenko"
-  bio         : "Honours student"
+  bio         : "PhD Student"
   avatar      : "/assets/images/Anita.jpg"
   links:
     - label: "Email"
@@ -665,7 +650,7 @@ Anita Tarasenko:
 
 Sein Hwang:
   name        : "Sein Hwang"
-  bio         : "Honours student"
+  bio         : "Honours Student"
   avatar      : "/assets/images/sein.jpg"
   links:
     - label: "Email"
@@ -698,7 +683,7 @@ Sein Hwang:
 
 Will Plewa:
   name        : "Will Plewa"
-  bio         : "Undergraduate student"
+  bio         : "Undergraduate Student"
   avatar      : "/assets/images/Will-Plewa.jpg"
   links:
     - label: "Email"
@@ -731,7 +716,7 @@ Will Plewa:
 
 Clarice Harker:
   name        : "Clarice Harker"
-  bio         : "Honours student"
+  bio         : "Honours Student"
   avatar      : "/assets/images/Clarice.jpeg"
   links:
     - label: "Email"
@@ -764,7 +749,7 @@ Clarice Harker:
 
 Abbey Hutton:
   name        : "Abbey Hutton"
-  bio         : "PhD student"
+  bio         : "PhD Student"
   avatar      : "/assets/images/Abbey.jpeg"
   links:
     - label: "Email"
@@ -863,7 +848,7 @@ Julie Pederson:
 
 Tessa Herewane:
   name        : "Tessa Herewane"
-  bio         : "Undergraduate student"
+  bio         : "Undergraduate Student"
   avatar      : "/assets/images/tess.jpg"
   links:
     - label: "Email"
@@ -873,7 +858,7 @@ Tessa Herewane:
 
 Cong Pham:
   name: "Cong Pham"
-  bio: "Honours student"
+  bio: "Honours Student"
   avatar: "/assets/images/cong.png"
   links:
       - label: "Email"
@@ -956,3 +941,15 @@ Tina Hauptfeld:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:tina.hauptfeld@gmail.com"
+
+Jasmine Ascensio:
+  name        : "Jasmine Ascensio"
+  bio         : "Undergraduate Student"
+  avatar      : "/assets/images/Jasmine.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:somm0035@flinders.edu.au"
+    - label: "LinkedID"
+      icon: "fab fa-fw fa-linkedin"
+      url: " https://www.linkedin.com/in/jasmine-ascensio-31a6ba236/"

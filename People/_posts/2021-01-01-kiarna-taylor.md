@@ -2,7 +2,7 @@
 layout: archive
 title: Kiarna Taylor
 author: Kiarna Taylor
-tag: Students
+tag: Alumni
 excerpt: "Honours student in the Dinsdale lab\n"
 ---
 

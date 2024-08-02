@@ -5,15 +5,19 @@ permalink: /software/
 title: FAME Bioinformatics Software
 ---
 
-Many Bioinformatics tools for performing a variety of analyses have been created by current and past members of FAME.
-Browse our currently-maintained, open-source, and freely available Bioinformatics tools below.
+Check out our amazing, well-maintained, open-source, and freely available Bioinformatics software!
 
 {% assign sortedPosts = site.categories.Software | sort: 'title' %}
-{% for post in sortedPosts %}
-  {% include archive-single.html type=entries_layout %}
-{% endfor %}
 
-
-
-
-
+<table style="margin-left: auto; margin-right: auto;">
+ {% for post in sortedPosts %}
+ <tr>
+  <th>
+   <div style="vertical-align: top; margin-left: auto; margin-right: 0;">
+    <img src="{{ post.logo }}" style="float: right; margin-right: 20pt; max-width: 300px; max-height: 150px;">
+   </div>
+  </th>
+  <th>{% include archive-single.html type=grid %}</th>
+ </tr>
+ {% endfor %}
+</table>

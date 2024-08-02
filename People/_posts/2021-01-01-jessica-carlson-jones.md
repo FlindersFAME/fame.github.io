@@ -2,7 +2,7 @@
 layout: archive
 title: Jessica Carlson-Jones
 author: Jessica Carlson-Jones
-tag: Researchers
+tag: Alumni
 excerpt: "Research Associate in the Edwards lab\n"
 ---
 

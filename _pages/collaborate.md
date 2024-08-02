@@ -13,7 +13,7 @@ exploration, applications of environmental samples in forensics, and patient fae
 This round of funding supports diverse approaches for discerning genomic material, including whole genome shotgun (WGS) 
 sequencing for both bacterial and viral, metabarcoding metagenomics (16s) (bacterial), and environmental DNA (eDNA). 
 
-[Click here more information on our current seed project collaborations. ](/projects/2021/08/30/fame-projects)
+[Click here more information on our current seed project collaborations. ](/blog/2021/08/30/fame-projects)
 
 A primary objective of FAME is to make cutting-edge metagenomic technologies accessible to the Flinders University community. 
 We are committed to supporting the succession of these projects, and the enhancement of research questions and scientific discoveries beyond their original aims. 
