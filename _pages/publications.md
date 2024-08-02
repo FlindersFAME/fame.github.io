@@ -9,6 +9,9 @@ Check out these amazing publications from our FAME-ous researchers!
 
 ## 2024
 
+### Solving genomic puzzles: computational methods for metagenomic binning
+<small>Vijini Mallawaarachchi, Anuradha Wickramarachchi, Hansheng Xue, Bhavya Papudeshi, Susanna R Grigson, George Bouras, Rosa E Prahl, Anubhav Kaphle, Andrey Verich, Berenice Talamantes-Becerra, Elizabeth A Dinsdale, Robert A Edwards (2024), [Briefings in Bioinformatics](https://doi.org/10.1093/bib/bbae372){:target="_blank"}</small>
+
 ### ICP – could there be a virus in the works?
 <small>Sarah K Giles, William M Hague, Robert A Edwards (2024), [Obstetric Medicine](https://doi.org/10.1177/1753495X241258385){:target="_blank"}</small>
 
