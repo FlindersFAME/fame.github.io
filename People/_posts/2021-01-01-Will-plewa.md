@@ -2,7 +2,7 @@
 layout: archive
 title: Will Plewa
 author: Will Plewa
-tag: Students
+tag: Alumni
 excerpt: "Undergraduate student in the Edwards lab\n"
 ---
 
